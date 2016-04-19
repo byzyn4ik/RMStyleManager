@@ -17,7 +17,7 @@ RMStyleManager is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "RMStyleManager"
+pod 'RMStyleManager', :git => 'https://github.com/byzyn4ik/RMStyleManager'
 ```
 
 ## Author
