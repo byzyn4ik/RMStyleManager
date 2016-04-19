@@ -1,0 +1,6 @@
+framework module Pods_RMStyleManager_Example {
+  umbrella header "Pods-RMStyleManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'RMStyleManager_Example' do
+  pod 'RMStyleManager', :path => '../'
+end
+

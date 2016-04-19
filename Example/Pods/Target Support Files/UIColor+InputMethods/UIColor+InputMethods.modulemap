@@ -1,0 +1,6 @@
+framework module UIColor_InputMethods {
+  umbrella header "UIColor+InputMethods-umbrella.h"
+
+  export *
+  module * { export * }
+}

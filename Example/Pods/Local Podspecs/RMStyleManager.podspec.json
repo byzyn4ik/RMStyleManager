@@ -1,0 +1,35 @@
+{
+  "name": "RMStyleManager",
+  "version": "0.1.0",
+  "summary": "A short description of RMStyleManager.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RMStyleManager",
+  "license": "MIT",
+  "authors": {
+    "Maks Petrovsky": "petrovskiy@real.me"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/RMStyleManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RMStyleManager/Classes/**/*",
+  "resource_bundles": {
+    "RMStyleManager": [
+      "RMStyleManager/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "APRoundedButton": [
+
+    ],
+    "UIColor+InputMethods": [
+
+    ],
+    "UIImage+ImageWithColor": [
+
+    ]
+  }
+}

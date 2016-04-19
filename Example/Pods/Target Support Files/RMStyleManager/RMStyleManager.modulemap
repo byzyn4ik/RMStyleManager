@@ -1,0 +1,6 @@
+framework module RMStyleManager {
+  umbrella header "RMStyleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
