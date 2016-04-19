@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 realme. All rights reserved.
 //
 
-#import "APRoundedButton.h"
+#import "BaseRoundedButton.h"
 
-@interface RMStylishRoundedButton : APRoundedButton
+@interface RMStylishRoundedButton : BaseRoundedButton
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString*)styleName;
 

@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'APRoundedButton'
   s.dependency 'UIColor+InputMethods'
   s.dependency 'UIImage+ImageWithColor'
 end
