@@ -22,8 +22,8 @@ pod "RMStyleManager"
 
 ## Author
 
-Maks Petrovsky, petrovskiy@real.me
-
+Maks Petrovsky, byzyn4ik@gmail.com
+Alexander Balabanov ,  alxndr.blbnv@gmail.com
 ## License
 
 RMStyleManager is available under the MIT license. See the LICENSE file for more info.
