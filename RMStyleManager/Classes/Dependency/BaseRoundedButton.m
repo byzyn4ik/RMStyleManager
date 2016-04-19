@@ -3,7 +3,7 @@
 //  Copyright (c) 2014 albertopasca.it. All rights reserved.
 //
 
-#import "APRoundedButton.h"
+#import "BaseRoundedButton.h"
 #import <QuartzCore/QuartzCore.h>
 #import "UIImage+ImageWithColor.h"
 #import "UIColor+InputMethods.h"
