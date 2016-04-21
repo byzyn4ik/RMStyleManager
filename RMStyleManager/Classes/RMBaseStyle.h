@@ -10,4 +10,8 @@
 
 @interface RMBaseStyle : NSObject
 
+@property (nonatomic,retain) UIColor *backgroundColor;
+@property (nonatomic,assign) CGFloat borderWidth;
+@property (nonatomic,assign) CGFloat cornerRadius;
+
 @end

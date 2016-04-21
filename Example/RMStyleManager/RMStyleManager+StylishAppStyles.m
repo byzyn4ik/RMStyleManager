@@ -97,4 +97,12 @@ static BOOL isStyleEnabledNext;
     return style;
 }
 
+
+#pragma mark - Naviagtion Bar 
+
++ (RMNavigationBarStyle*)clearStyle
+{
+    RMNavigationBarStyle *style = [RMNavigationBarStyle new];
+    return style;
+}
 @end

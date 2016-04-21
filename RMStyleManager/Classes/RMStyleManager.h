@@ -12,14 +12,12 @@
 #import "RMButtonStyle.h"
 #import "RMSwitchStyle.h"
 #import "RMTextFieldStyle.h"
+#import "RMBaseStyle.h"
+#import "RMNavigationBarStyle.h"
 
 @interface RMStyleManager : NSObject
 
-+ (id)styleForKey:(NSString*)key;
-+ (RMLabelStyle *)labelStyleForKey:(NSString *)key;
-+ (RMButtonStyle *)buttonStyleForKey:(NSString *)key;
-+ (RMSwitchStyle *)switchStyleForKey:(NSString *)key;
-+ (RMTextFieldStyle *)textFieldStyleForKey:(NSString *)key;
++ (RMBaseStyle*)styleForKey:(NSString*)key;
 + (void)reloadAllStyles;
 
 @end

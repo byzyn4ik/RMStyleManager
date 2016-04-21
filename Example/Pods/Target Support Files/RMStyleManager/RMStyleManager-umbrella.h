@@ -1,8 +1,7 @@
 #import <UIKit/UIKit.h>
 
-#import "APRoundedButton.h"
-#import "UIColor+InputMethods.h"
-#import "UIImage+ImageWithColor.h"
+#import "BaseRoundedButton.h"
+#import "RMNavigationBarStyle.h"
 #import "UILabel+TextKerning.h"
 #import "RMReloadStyleSubscriber.h"
 #import "RMStyleReloadProtocol.h"
@@ -10,6 +9,7 @@
 #import "RMBaseStyle.h"
 #import "RMButtonStyle.h"
 #import "RMLabelStyle.h"
+#import "RMNavigationBar.h"
 #import "RMStyleManager.h"
 #import "RMStyleSwitch.h"
 #import "RMStylishComponent.h"

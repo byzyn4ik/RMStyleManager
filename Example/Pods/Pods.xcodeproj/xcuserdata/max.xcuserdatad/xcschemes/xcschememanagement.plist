@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-RMStyleManager_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RMStyleManager-RMStyleManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RMStyleManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIColor+InputMethods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIImage+ImageWithColor.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1AB2F586C84F6EBE999FC0A45E2A810F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2648FF063F23922FAE8DF2AFEFBF5538</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68F076E039D45D5B6B23C76E9F9CB096</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCB00D283DCD539F36E3B0C336F438D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
