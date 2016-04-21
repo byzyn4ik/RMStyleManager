@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57BAA5777642056B229E985B"
+               BlueprintIdentifier = "F0C330DB586606301A1F8EBF"
                BuildableName = "UIColor_InputMethods.framework"
                BlueprintName = "UIColor+InputMethods"
                ReferencedContainer = "container:Pods.xcodeproj">

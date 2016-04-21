@@ -10,4 +10,10 @@
 
 @interface RMNavigationBarStyle : RMBaseStyle
 
+@property (nonatomic) BOOL translucent;
+@property (nonatomic) UIImage* shadowImage;
+@property (nonatomic) UIColor* shadowColor;
+@property (nonatomic,strong) UIColor *tintColor;
+@property (nonatomic,strong) UIColor *barTintColor;
+
 @end

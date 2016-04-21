@@ -103,6 +103,11 @@ static BOOL isStyleEnabledNext;
 + (RMNavigationBarStyle*)clearStyle
 {
     RMNavigationBarStyle *style = [RMNavigationBarStyle new];
+    style.backgroundColor = [UIColor clearColor];
+    style.shadowColor = [UIColor clearColor];
+    style.translucent = YES;
+    style.barTintColor = [UIColor clearColor];
+    style.tintColor = [UIColor orangeColor];
     return style;
 }
 @end

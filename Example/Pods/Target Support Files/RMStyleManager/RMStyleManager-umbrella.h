@@ -1,7 +1,6 @@
 #import <UIKit/UIKit.h>
 
 #import "BaseRoundedButton.h"
-#import "RMNavigationBarStyle.h"
 #import "UILabel+TextKerning.h"
 #import "RMReloadStyleSubscriber.h"
 #import "RMStyleReloadProtocol.h"

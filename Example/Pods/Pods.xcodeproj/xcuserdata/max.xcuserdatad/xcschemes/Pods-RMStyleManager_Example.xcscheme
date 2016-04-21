@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "897E43B493B7462C72AC3443"
+               BlueprintIdentifier = "8A86F0D4A346702A6CC60EF9"
                BuildableName = "Pods_RMStyleManager_Example.framework"
                BlueprintName = "Pods-RMStyleManager_Example"
                ReferencedContainer = "container:Pods.xcodeproj">

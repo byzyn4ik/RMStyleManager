@@ -9,6 +9,11 @@
 #import "RMNavigationBar.h"
 #import "RMNavigationBarStyle.h"
 #import "UIView+RMStyleReloader.h"
+#import <UIImage+ImageWithColor/UIImage+ImageWithColor.h>
+
+@interface RMNavigationBar () <RMStylishComponent>
+
+@end
 
 @implementation RMNavigationBar
 
@@ -58,9 +63,26 @@
 
 - (void)applyStyle:(RMNavigationBarStyle*)style
 {
+    self.translucent = style.translucent;
     if (style.backgroundColor)
     {
-        [self setBackgroundColor:style.backgroundColor];
+        [self setBackgroundImage:[UIImage imageWithColor:style.backgroundColor] forBarMetrics:UIBarMetricsDefault];
+    }
+    if (style.tintColor)
+    {
+        self.barTintColor = style.barTintColor;
+    }
+    if (style.tintColor)
+    {
+        self.tintColor = style.tintColor;
+    }
+    if (style.shadowColor)
+    {
+        style.shadowImage = [UIImage imageWithColor:style.shadowColor];
+    }
+    if (style.shadowImage)
+    {
+        [self setShadowImage:style.shadowImage];
     }
 }
     

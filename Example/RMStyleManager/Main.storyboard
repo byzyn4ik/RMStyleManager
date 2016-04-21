@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RMViewController" sceneMemberID="viewController">
@@ -52,11 +52,14 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="style" value="buttonStyleFirst"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="QTD-Jk-sIf" kind="show" id="10A-0s-3Y8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rF5-Zz-UJK"/>
+                    <navigationItem key="navigationItem" title="First" id="rF5-Zz-UJK"/>
                     <connections>
                         <outlet property="myButton" destination="no9-Yp-c0F" id="uDN-OE-pi2"/>
                     </connections>
@@ -64,6 +67,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1115" y="429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="htV-cE-uEZ">
+            <objects>
+                <viewController id="QTD-Jk-sIf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UZK-Pc-Go6"/>
+                        <viewControllerLayoutGuide type="bottom" id="gUH-8b-aSR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vuI-ii-VCT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OSN-Cw-OI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795" y="429"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="neN-ed-8Ts">
