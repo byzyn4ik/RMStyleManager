@@ -6,7 +6,7 @@
 //
 //
 
-#import <RMStyleManager/RMStyleManager.h>
+#import "RMBaseStyle.h"
 
 @interface RMNavigationBarStyle : RMBaseStyle
 

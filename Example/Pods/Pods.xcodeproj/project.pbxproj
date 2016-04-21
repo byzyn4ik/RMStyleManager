@@ -10,39 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>045B835394C5FB9C0BE794BE2A548617</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C6E5FCD60148D334B52C16C85154CED6</string>
-				<string>4B2265BA2E674366A2D0CD0A0705846B</string>
-				<string>E5E3D5B30EC45F677431D515AFB0DD01</string>
-				<string>9A8211399C5253CECF2DF244A2A83838</string>
-				<string>C5034EEC0D80E8B34F42528EC89F1868</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DynamicStylesReloader</string>
-			<key>path</key>
-			<string>DynamicStylesReloader</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>058F754E11113A88C8D3EB58CFCBCD7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UILabel+TextKerning.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07A44A0FD0C13A11740266AEC46AD59B</key>
+		<key>015CB73569534BFCA716BED9CD826582</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -54,6 +22,93 @@
 			<string>RMLabelStyle.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0334BCE8914BEF049A22BB6FE30720D0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E5133804D57FD3186339CD10FAF8D87A</string>
+				<string>7985ADC85C080313509E703C70BAFC53</string>
+				<string>D5C547435E745CC115F27A4A8106BEA5</string>
+				<string>F91BA8D853BE2D067424A1D8A5166586</string>
+				<string>015CB73569534BFCA716BED9CD826582</string>
+				<string>5F19680EE9D4126C9DA34CE98EA352BD</string>
+				<string>6C234BBFE5A42DA6FCDDE63CD607D953</string>
+				<string>9F782132F17722C669A1D16F54A859B2</string>
+				<string>0C7AEE170DA87CF7D1E2B13F154F90AF</string>
+				<string>11790E2A48F5A97615DB87699DFE2BFA</string>
+				<string>EEAD4C2B306E071AAECEDBE8FCBA4F05</string>
+				<string>D3119B749C352F133CBC9D48AC909BE8</string>
+				<string>5D3A7B6D131CAABB03B4EE74AE3A0731</string>
+				<string>078178C22EEB4FCAAFC63BCB63DECDF4</string>
+				<string>CABAD3AC15BBF280608FB456439EF22F</string>
+				<string>F27187E8D673363806EEEEEB80940617</string>
+				<string>A2ADB4F6CB0C8E568C8FE7B5F9B51B83</string>
+				<string>28D8F368EA18AB344ED4143BE6B98DC3</string>
+				<string>4A2E0ACCE4126BAE2D691EE8F4F83676</string>
+				<string>3635EF8B885C5A21748B12EC5FEFE59C</string>
+				<string>E6EABF5CC7C482D481A87C334365CE87</string>
+				<string>687A814DDCD4B2DE23AEFC9B16541035</string>
+				<string>582CD05D088D787895DAAEFC0B8AFFDC</string>
+				<string>2F74C1F5D519A26112AADBF466B73102</string>
+				<string>9303F5E13B6C9D7476D0CAE5E65A9339</string>
+				<string>C5F00CD9CD203A204037EA7FA22BC3B2</string>
+				<string>93D78DD48AB8A2D0BA0FE71E806D8AC0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>049CCE9B61FDA58CFBC53BFE4B1507AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIView+RMStyleReloader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>06104AB68AAB5780E6A6A71808385AAD</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>F45715EA0E9B22014A405E5A4D5871DC</string>
+			<key>remoteInfo</key>
+			<string>RMStyleManager</string>
+		</dict>
+		<key>078178C22EEB4FCAAFC63BCB63DECDF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMStyleSwitch.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>07F3705D38CD45DB346816C6AAF3E245</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BF3D1BF7E015D2DE9174AE65259E8437</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0816B4603FB2313C70F84F57F4CE85E9</key>
 		<dict>
@@ -69,18 +124,33 @@
 				</array>
 			</dict>
 		</dict>
-		<key>08DD3C0747840A039551F2830372B7A8</key>
+		<key>098CC371BD9335C38B2D36DB4CCDC7B7</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>11790E2A48F5A97615DB87699DFE2BFA</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>68F076E039D45D5B6B23C76E9F9CB096</string>
-			<key>remoteInfo</key>
-			<string>RMStyleManager-RMStyleManager</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0A1C074F1EC08FBD78CBAA5CF4E25469</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BE9E9E26644370A211ED66DBB090CD22</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0B3C79240E2CE25BF88A2F57B56962A0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B0E2FF64DC1130662E6380081D77A8BA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>0B8AA09DA5C906851D6BE7F78880C45B</key>
 		<dict>
@@ -95,25 +165,32 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0CD99C395BB0FD53880ED9522ACB0E61</key>
+		<key>0C09A074240556B4FDA8DDBD008C0B72</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5251321D51EB88315DA7FD407FB7DC2A</string>
+			<string>CCB459ED570B84147CED0D3AD1E66EDE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0E5771DFC95E8405980747406D24A9DE</key>
+		<key>0C7AEE170DA87CF7D1E2B13F154F90AF</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
-			<key>remoteInfo</key>
-			<string>UIImage+ImageWithColor</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMNavigationBarStyle.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D0F3ADCC70E3D45217D63D87C9D4EB5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9F782132F17722C669A1D16F54A859B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0F078BEE4706F4C8145E1B14801F9E5D</key>
 		<dict>
@@ -127,36 +204,6 @@
 			<string>Pods-RMStyleManager_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F1C57160F4D33D1BF2D8D273C4E2815</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07A44A0FD0C13A11740266AEC46AD59B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0F664D806BEDD32FF56030E72CFED9E9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4F8AC4BD71A25011D93CE95A9BBDEC6A</string>
-				<string>BC39DEBAFB4C5386C1715CA4E8A3DDFE</string>
-				<string>F1ACABA827A3F418F5C204D046E811F6</string>
-				<string>51A74DBB4AE8985EFB44F8514E9AD6E8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
 		<dict>
@@ -226,16 +273,18 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>10FA6A91D29002AD2D8F5442D0C58DFA</key>
+		<key>11790E2A48F5A97615DB87699DFE2BFA</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>RMStyleManager-RMStyleManager</string>
-			<key>target</key>
-			<string>68F076E039D45D5B6B23C76E9F9CB096</string>
-			<key>targetProxy</key>
-			<string>08DD3C0747840A039551F2830372B7A8</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMNavigationBarStyle.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>119E7BAE9FBAC5FB0A2072B5E4340D1D</key>
 		<dict>
@@ -249,53 +298,6 @@
 			<string>UIColor+InputMethods.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1204E174F3B033E4B5EF8A70DBBC0FEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMSwitchStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>122C3C4154F5099D455D9D7DD25B3484</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7EE04D3EFC28F88E9A6CAF1FA896FD3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>12DA56B0C4C1A73F926C2BA5650C50B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMStyleManager-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1425E32E2A1192CFA27494700BF7058C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E69C76637B2591308B0D604C5426353C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>1463BBBFA759DFB64FD19F389F5703FB</key>
 		<dict>
@@ -311,12 +313,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>17A71E0B86F59CE7E5E5A6397AEF1B4E</key>
+		<key>182B2DFE5273764CF3D91BD0B954AED8</key>
 		<dict>
-			<key>fileRef</key>
-			<string>997BFB106DFBFBEC6D91A0B62BFC2572</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>UIColor+InputMethods</string>
+			<key>target</key>
+			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
+			<key>targetProxy</key>
+			<string>4FFE9F99487FA2DBD8C7C2C0B8B3DB58</string>
 		</dict>
 		<key>187575A6FAAF49DCA1C638163AC6F40F</key>
 		<dict>
@@ -324,100 +330,6 @@
 			<string>CCB459ED570B84147CED0D3AD1E66EDE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>18B045F0D8192A3FE2A3FDFBC7B43B94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>18EA7C03191FE1A321B3ED16FDE9B205</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18EA7C03191FE1A321B3ED16FDE9B205</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMStylishRoundedButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>191ED25536AB1B593C24E89D904302A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMButtonStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AB2F586C84F6EBE999FC0A45E2A810F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>77C63C5B3662BE86153083C2097141D2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>73CC8B0216BA49698747D99449321A0C</string>
-				<string>0F664D806BEDD32FF56030E72CFED9E9</string>
-				<string>575526B820C77FBA81F59CDA42F97DC3</string>
-				<string>1B3B264F39F5B179B042769826CCF99E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>10FA6A91D29002AD2D8F5442D0C58DFA</string>
-				<string>62DDB25F1003F5E0F1A03D3B95A24B0E</string>
-				<string>615D5122191C395563A708DAE225E52C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RMStyleManager</string>
-			<key>productName</key>
-			<string>RMStyleManager</string>
-			<key>productReference</key>
-			<string>A8DD3A6BDFB11B93F9607C32EC6C06D4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1B3B264F39F5B179B042769826CCF99E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2AF5339686A62C96B8851C94AD1F7AEB</string>
-				<string>5B991C31E04E2D0A4F6C8115E9E3AEFC</string>
-				<string>D7C827C2AB7B4B3B76C0D4B17B8F4D5E</string>
-				<string>0F1C57160F4D33D1BF2D8D273C4E2815</string>
-				<string>753664902607460E18526BB4E9393BA0</string>
-				<string>2FC9F42AACEDBE256B6D05419CDDD7D6</string>
-				<string>A87275E828B00F6A3ADECCE315CB0776</string>
-				<string>6A31314F78D4E0BBD7FABB513278C769</string>
-				<string>89FF17B1332AB302E7E6020499E70875</string>
-				<string>9192A892D8B65D53639615C0E33777CC</string>
-				<string>5AFB82F8CBE42AFB995C8B901A6D28E7</string>
-				<string>2134C890DF84EDB72E387A6B2133B6E3</string>
-				<string>A88646E696C4D7C573426119DC166471</string>
-				<string>FFE964F228F35690AD565F40C1D28342</string>
-				<string>37F69A93C201B52512EE0F54E48A6EE3</string>
-				<string>6403639B542381AF9772363887AC42E0</string>
-				<string>122C3C4154F5099D455D9D7DD25B3484</string>
-				<string>7D865ADF1D16E8D26C0721C37F7ED617</string>
-				<string>6A8E48CC00C7EF666B032FC4B5AE8F46</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>1BCD9E0A667D10480752306EBE2AE16C</key>
 		<dict>
@@ -445,18 +357,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1CA9929860D7105E085720E070474CF6</key>
+		<key>1CF714566F23CB00FEA11B5A41B7DC69</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>CABAD3AC15BBF280608FB456439EF22F</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMLabelStyle.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>1D248C91D1EBAC2A263D4C150E91626C</key>
 		<dict>
@@ -482,6 +395,13 @@
 			<string>RMStyleManager.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1ECEBAA2FC3E19F6A184219F2E4FDA01</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7985ADC85C080313509E703C70BAFC53</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>1FA1E3E56B3BF3AF80B50E21C387FD78</key>
 		<dict>
@@ -518,19 +438,61 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2134C890DF84EDB72E387A6B2133B6E3</key>
+		<key>1FF5C443935B468D58212CBE6F9E59C3</key>
 		<dict>
-			<key>fileRef</key>
-			<string>EDC783C3362E5771E290696FD8C8A2BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
+			<key>baseConfigurationReference</key>
+			<string>5186B1B3E1B0421BC2C5CF3B87D92D9D</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>ATTRIBUTES</key>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>0.1.0</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>0.1.0</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>$(CURRENT_PROJECT_VERSION)</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/RMStyleManager/RMStyleManager-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/RMStyleManager/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<array>
-					<string>Public</string>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
 				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/RMStyleManager/RMStyleManager.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>RMStyleManager</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>228DE0BB287148145CB9354DC4A4B6EB</key>
 		<dict>
@@ -553,30 +515,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
-		</dict>
-		<key>238B8BD0E63F46E6F93CB00E3C30ACC1</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>UIImage+ImageWithColor</string>
-			<key>target</key>
-			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
-			<key>targetProxy</key>
-			<string>8FBA6B8F159200E5C8CE3D867F79DE86</string>
-		</dict>
-		<key>238EF29ED094ADFD71C84A0D6FA9BEB7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMBaseStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>23F20599003F0866F046B3126D363B77</key>
 		<dict>
@@ -634,6 +572,19 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>252AF2A8EA9301EA2749A6A96F813FF7</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
+			<key>remoteInfo</key>
+			<string>UIImage+ImageWithColor</string>
+		</dict>
 		<key>25B135A0479037AA3253F9EC6101E9DC</key>
 		<dict>
 			<key>children</key>
@@ -642,9 +593,9 @@
 				<string>1E5977F0CD4A34DBDA714F6D89531B23</string>
 				<string>DCB43F8EBF82BE5AF0596A5443BD81DD</string>
 				<string>5186B1B3E1B0421BC2C5CF3B87D92D9D</string>
-				<string>EF70997A16DD91A0EBC81F15D37FD4CC</string>
+				<string>BF3D1BF7E015D2DE9174AE65259E8437</string>
 				<string>EA33E4F7A441A8DA3903A6629F70A894</string>
-				<string>12DA56B0C4C1A73F926C2BA5650C50B6</string>
+				<string>DF0890E0828BC2DF16DF9392C148A547</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -680,25 +631,38 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>26A2602128D0F26BB84FDEAEC0EF5CEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMButtonStyle.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>28184A69C8218D9CB770FE058C57BEB4</key>
 		<dict>
 			<key>fileRef</key>
 			<string>1BCD9E0A667D10480752306EBE2AE16C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>2832B558B2092B562DC12CC47CFC7F28</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UILabel+TextKerning.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28D8F368EA18AB344ED4143BE6B98DC3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMStylishRoundedButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>298D172F9BD4DEA11110348455A67195</key>
 		<dict>
@@ -726,10 +690,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2AF5339686A62C96B8851C94AD1F7AEB</key>
+		<key>2CAEEC4BA05BAA0F615D1D7841907E5A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>86FDE1169032B5A0F9D9E031A512DC4C</string>
+			<string>982B6F9666C3B8830ADE39CBAC010E49</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -739,26 +703,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>2B009EC969B889E1968C4090534259F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMTextFieldStyle.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B348C9682B542905090B19B03E3DC1F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D068C493EAEF86F8BFD0480AB36075EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>2D8DD2CA392B7A65E6F6836FBE6A3CB1</key>
 		<dict>
@@ -805,10 +749,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2FC9F42AACEDBE256B6D05419CDDD7D6</key>
+		<key>2F74C1F5D519A26112AADBF466B73102</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMTextFieldStyle.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3027A11F8E5649F51FBBCEA6EDD07C12</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6B230B902BE6414D15A3C3C1F649DC8D</string>
+			<string>9303F5E13B6C9D7476D0CAE5E65A9339</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30B5F144BDA14B942C4AE64C90C815F2</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
+			<key>remoteInfo</key>
+			<string>UIImage+ImageWithColor</string>
+		</dict>
+		<key>32EF43AB884249BEE6DCBFFDE26249FC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>298D172F9BD4DEA11110348455A67195</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>35063F6725A348B90893DC88A1347E4D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D5C547435E745CC115F27A4A8106BEA5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -818,13 +802,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>32EF43AB884249BEE6DCBFFDE26249FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>298D172F9BD4DEA11110348455A67195</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>354D23349C9D1553019CC26E71CB7DD3</key>
 		<dict>
@@ -865,6 +842,37 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>3635EF8B885C5A21748B12EC5FEFE59C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMStylishTextField.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>373F2C87AAB30300EE2464D60FB4B290</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>RMStyleManager</string>
+			<key>target</key>
+			<string>F45715EA0E9B22014A405E5A4D5871DC</string>
+			<key>targetProxy</key>
+			<string>06104AB68AAB5780E6A6A71808385AAD</string>
+		</dict>
+		<key>37A3564DB805D5320EAD1E902FEA8D9B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4A2E0ACCE4126BAE2D691EE8F4F83676</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>37E4AAC543893BCB3E3D4CBE55877250</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -878,25 +886,11 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>37F69A93C201B52512EE0F54E48A6EE3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F88B1F1ABC74C293063BBF10C198860F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>38207CD23A6165CEDF6BE226BCEBA189</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C217B0E3440D9650281C8EE1891E8E6F</string>
+				<string>B675736B6EC885BD28274C99906BC67F</string>
 				<string>25B135A0479037AA3253F9EC6101E9DC</string>
 			</array>
 			<key>isa</key>
@@ -908,10 +902,54 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3B6FCCCD39E2BB527464E5E731FA4F55</key>
+		<key>38515D00BC5BEDDB382A1FFDFAB2D143</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FFF66FBBF747318F4AE2AD2D0B51E276</string>
+			<string>5D3A7B6D131CAABB03B4EE74AE3A0731</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>39A6BAD4F5441785CC7B8196D8C2006A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>98DF8690448839EEEA8D737281C73D52</string>
+				<string>1ECEBAA2FC3E19F6A184219F2E4FDA01</string>
+				<string>437322CB0FDE8F95032756C5B4C0F0BC</string>
+				<string>D288A04FC09470889B086A486EE51D04</string>
+				<string>0D0F3ADCC70E3D45217D63D87C9D4EB5</string>
+				<string>098CC371BD9335C38B2D36DB4CCDC7B7</string>
+				<string>098CC371BD9335C38B2D36DB4CCDC7B7</string>
+				<string>0A1C074F1EC08FBD78CBAA5CF4E25469</string>
+				<string>07F3705D38CD45DB346816C6AAF3E245</string>
+				<string>50144C5FF751D76397F1F55A19B68360</string>
+				<string>B686B9E7C81CF32E02017F31DF01D48C</string>
+				<string>BDD50881B42F45218922B3B833A939FE</string>
+				<string>37A3564DB805D5320EAD1E902FEA8D9B</string>
+				<string>B02207962DC7F76845B4298A28B6C8B2</string>
+				<string>77EA0A94DF238F06375E20227CD9234B</string>
+				<string>3027A11F8E5649F51FBBCEA6EDD07C12</string>
+				<string>87DF1F019CD08ED4EECB1649275144E5</string>
+				<string>57451312D8300117B74F1121FE4C5D81</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3B09021102BE716436B1BFD09653949B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>298D172F9BD4DEA11110348455A67195</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -929,23 +967,45 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>3E8743421A3B04EE576347B413C2F4AF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
-			<key>remoteInfo</key>
-			<string>UIColor+InputMethods</string>
-		</dict>
 		<key>429012FF76972AEC2A1CD3A4C23C52BB</key>
 		<dict>
 			<key>fileRef</key>
 			<string>B85359F5EA32F49B6AD921B8975268F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>437322CB0FDE8F95032756C5B4C0F0BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F91BA8D853BE2D067424A1D8A5166586</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>440399DB29BF7E033108E892BF7ECF10</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0C7AEE170DA87CF7D1E2B13F154F90AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>45E3AE41763596B347F9138558666C21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8FAA77FE143CE3A26133E1316C7B546</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -990,14 +1050,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4941CF5D4AB325A983E62EA9014E4024</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CA9929860D7105E085720E070474CF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B2265BA2E674366A2D0CD0A0705846B</key>
+		<key>4A2E0ACCE4126BAE2D691EE8F4F83676</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1006,7 +1059,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RMReloadStyleSubscriber.m</string>
+			<string>RMStylishRoundedButton.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4B65A74D26A77CB1C50808B61E79DF56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>BaseRoundedButton.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1014,8 +1080,8 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>F160A4323EBC792453A6134E2D4801A4</string>
-				<string>56464F0A82A7F4FB2D2D0FEB53F8FC11</string>
+				<string>FF080A9ACFE99262EA830EF2F58E6FF5</string>
+				<string>A65B32062E2CCD73BC5EDA17524C410F</string>
 				<string>1463BBBFA759DFB64FD19F389F5703FB</string>
 			</array>
 			<key>isa</key>
@@ -1025,10 +1091,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4F8AC4BD71A25011D93CE95A9BBDEC6A</key>
+		<key>4FFE9F99487FA2DBD8C7C2C0B8B3DB58</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
+			<key>remoteInfo</key>
+			<string>UIColor+InputMethods</string>
+		</dict>
+		<key>50144C5FF751D76397F1F55A19B68360</key>
 		<dict>
 			<key>fileRef</key>
-			<string>298D172F9BD4DEA11110348455A67195</string>
+			<string>D3119B749C352F133CBC9D48AC909BE8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1059,25 +1138,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>51A74DBB4AE8985EFB44F8514E9AD6E8</key>
+		<key>51CE3D1E576DC881D7C15D737BE5F186</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CCB459ED570B84147CED0D3AD1E66EDE</string>
+			<string>2F74C1F5D519A26112AADBF466B73102</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>5251321D51EB88315DA7FD407FB7DC2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMNavigationBar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>552D02D5BA751AC2E8790D2811D496CA</key>
 		<dict>
@@ -1152,36 +1225,46 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>56464F0A82A7F4FB2D2D0FEB53F8FC11</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>UIImage_ImageWithColor.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>575526B820C77FBA81F59CDA42F97DC3</key>
+		<key>5611109F42FDFC7667BE66D9BC38DABD</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C64C9BCE07871DF947EAE375F50A2831</string>
+				<string>3B09021102BE716436B1BFD09653949B</string>
+				<string>B34D42563A17EBBC99C57E94F0F0A4C8</string>
+				<string>DA37745020F507FB5FCD0AD068AD9A95</string>
+				<string>0C09A074240556B4FDA8DDBD008C0B72</string>
 			</array>
 			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>5AFB82F8CBE42AFB995C8B901A6D28E7</key>
+		<key>57451312D8300117B74F1121FE4C5D81</key>
 		<dict>
 			<key>fileRef</key>
-			<string>60C5FAB458D127332B2D1264D4A5BA50</string>
+			<string>049CCE9B61FDA58CFBC53BFE4B1507AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>582CD05D088D787895DAAEFC0B8AFFDC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMSwitchStyle.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5887DD1844F763045E909F5CFEE8EE70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3635EF8B885C5A21748B12EC5FEFE59C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1192,19 +1275,31 @@
 				</array>
 			</dict>
 		</dict>
-		<key>5B991C31E04E2D0A4F6C8115E9E3AEFC</key>
+		<key>5D3A7B6D131CAABB03B4EE74AE3A0731</key>
 		<dict>
-			<key>fileRef</key>
-			<string>238EF29ED094ADFD71C84A0D6FA9BEB7</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMStyleSwitch.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F19680EE9D4126C9DA34CE98EA352BD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMLabelStyle.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5FD1D4B3C2A928EC7BECB0C7C772F248</key>
 		<dict>
@@ -1220,19 +1315,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>60C5FAB458D127332B2D1264D4A5BA50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMStyleSwitch.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>60F05C4176F1A2BABD08D68BB1CC1944</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1247,7 +1329,20 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>615D5122191C395563A708DAE225E52C</key>
+		<key>653460C9E8A1A6546D2BD8F491E7F300</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
+			<key>remoteInfo</key>
+			<string>UIColor+InputMethods</string>
+		</dict>
+		<key>65CBF682429490A49F7097D20998DB11</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
@@ -1256,71 +1351,7 @@
 			<key>target</key>
 			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
 			<key>targetProxy</key>
-			<string>0E5771DFC95E8405980747406D24A9DE</string>
-		</dict>
-		<key>617263971D9430EB2AFD09CFB74D03DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>238EF29ED094ADFD71C84A0D6FA9BEB7</string>
-				<string>E69C76637B2591308B0D604C5426353C</string>
-				<string>191ED25536AB1B593C24E89D904302A7</string>
-				<string>26A2602128D0F26BB84FDEAEC0EF5CEA</string>
-				<string>07A44A0FD0C13A11740266AEC46AD59B</string>
-				<string>1CA9929860D7105E085720E070474CF6</string>
-				<string>6EF07970763E65347A4B7108B2248ED5</string>
-				<string>5251321D51EB88315DA7FD407FB7DC2A</string>
-				<string>FBA263594904ECDABD687067741514AB</string>
-				<string>FFF66FBBF747318F4AE2AD2D0B51E276</string>
-				<string>60C5FAB458D127332B2D1264D4A5BA50</string>
-				<string>E76D3BE710118A3F4D62C762E3798C58</string>
-				<string>EDC783C3362E5771E290696FD8C8A2BE</string>
-				<string>97915EB20F796CE833977E2F0B6D3EE6</string>
-				<string>6753425D76545D0C50C422F14863B23A</string>
-				<string>B1C469BF97E3A4E95D6AA24DF1077F9A</string>
-				<string>18EA7C03191FE1A321B3ED16FDE9B205</string>
-				<string>F88B1F1ABC74C293063BBF10C198860F</string>
-				<string>72C0D69D689E1A1846AEFE42B9040BD5</string>
-				<string>1204E174F3B033E4B5EF8A70DBBC0FEE</string>
-				<string>997BFB106DFBFBEC6D91A0B62BFC2572</string>
-				<string>D7EE04D3EFC28F88E9A6CAF1FA896FD3</string>
-				<string>2B009EC969B889E1968C4090534259F6</string>
-				<string>7FBA8245F200E46C593B819C4E14D3AE</string>
-				<string>045B835394C5FB9C0BE794BE2A548617</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62DDB25F1003F5E0F1A03D3B95A24B0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>UIColor+InputMethods</string>
-			<key>target</key>
-			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
-			<key>targetProxy</key>
-			<string>3E8743421A3B04EE576347B413C2F4AF</string>
-		</dict>
-		<key>6403639B542381AF9772363887AC42E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1204E174F3B033E4B5EF8A70DBBC0FEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>252AF2A8EA9301EA2749A6A96F813FF7</string>
 		</dict>
 		<key>66B9693DC25DF84B5E83B885E474749E</key>
 		<dict>
@@ -1378,16 +1409,86 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>6753425D76545D0C50C422F14863B23A</key>
+		<key>66F403C42C298EA51C8651600D5433DA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5186B1B3E1B0421BC2C5CF3B87D92D9D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>0.1.0</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>0.1.0</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>$(CURRENT_PROJECT_VERSION)</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/RMStyleManager/RMStyleManager-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/RMStyleManager/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/RMStyleManager/RMStyleManager.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>RMStyleManager</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6831A945C02CC31AA3202D80B72CE84B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1FF5C443935B468D58212CBE6F9E59C3</string>
+				<string>66F403C42C298EA51C8651600D5433DA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>687A814DDCD4B2DE23AEFC9B16541035</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RMStylishLabel.m</string>
+			<string>RMSwitchStyle.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1416,34 +1517,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.bundle</string>
 		</dict>
-		<key>6A31314F78D4E0BBD7FABB513278C769</key>
-		<dict>
-			<key>fileRef</key>
-			<string>12DA56B0C4C1A73F926C2BA5650C50B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6A8E48CC00C7EF666B032FC4B5AE8F46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A8211399C5253CECF2DF244A2A83838</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>6AC2165E1E671A61FD1A37975591D54D</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -1459,19 +1532,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>6B230B902BE6414D15A3C3C1F649DC8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMNavigationBarStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6B4215ABFB8A5D6114381BBC888BF3CD</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1482,6 +1542,19 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>UIImage+ImageWithColor-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C234BBFE5A42DA6FCDDE63CD607D953</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMNavigationBar.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1545,74 +1618,16 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>6EF07970763E65347A4B7108B2248ED5</key>
+		<key>712CE58FBBF6957AE6FFC76CF073907F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMNavigationBar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72C0D69D689E1A1846AEFE42B9040BD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMStylishTextField.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73CC8B0216BA49698747D99449321A0C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2B348C9682B542905090B19B03E3DC1F</string>
-				<string>1425E32E2A1192CFA27494700BF7058C</string>
-				<string>EB5466BF8099C45579727EE75883EF76</string>
-				<string>4941CF5D4AB325A983E62EA9014E4024</string>
-				<string>0CD99C395BB0FD53880ED9522ACB0E61</string>
-				<string>9D4E15510790EEEF68425C6C1DBA4436</string>
-				<string>AF3403D76AB237A4C5F847BBF45DAAE1</string>
-				<string>E7775368076F5DB20181FEBEC5368E6B</string>
-				<string>3B6FCCCD39E2BB527464E5E731FA4F55</string>
-				<string>FEF26AFA313F5A816F8398F90E73319C</string>
-				<string>BA3CF3FA20E4B0CF2DED459B4023D6B9</string>
-				<string>18B045F0D8192A3FE2A3FDFBC7B43B94</string>
-				<string>9ED8C65E1D8F8F3F4301834AD41173D8</string>
-				<string>17A71E0B86F59CE7E5E5A6397AEF1B4E</string>
-				<string>84D083D86F2BB0A9537B6F7102BABADC</string>
-				<string>89BB227FF81C3189BABC441A0EC9C8F1</string>
-				<string>E77455B77510DA5917FC1F16C9121C63</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>753664902607460E18526BB4E9393BA0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6EF07970763E65347A4B7108B2248ED5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>RMStyleManager-RMStyleManager</string>
+			<key>target</key>
+			<string>68F076E039D45D5B6B23C76E9F9CB096</string>
+			<key>targetProxy</key>
+			<string>CE42815DD82B2C228FC8B7D7B587E3F6</string>
 		</dict>
 		<key>769142BA31B8C7408D757D4002A10903</key>
 		<dict>
@@ -1625,19 +1640,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>77C63C5B3662BE86153083C2097141D2</key>
+		<key>77EA0A94DF238F06375E20227CD9234B</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A27E55594AB39CB20024BD05D3C35B89</string>
-				<string>7B4AFBB0D4B7339ECE7B29629AD0ED84</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>fileRef</key>
+			<string>582CD05D088D787895DAAEFC0B8AFFDC</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7985ADC85C080313509E703C70BAFC53</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMBaseStyle.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7A06E4C55CC7B2317960EF30A83B2B57</key>
 		<dict>
@@ -1651,62 +1672,6 @@
 			<string>UIImage+ImageWithColor.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B4AFBB0D4B7339ECE7B29629AD0ED84</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5186B1B3E1B0421BC2C5CF3B87D92D9D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/RMStyleManager/RMStyleManager-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/RMStyleManager/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/RMStyleManager/RMStyleManager.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>RMStyleManager</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>7BA1020FB7F5DD3647E02FE5931ABE78</key>
 		<dict>
@@ -1759,20 +1724,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7D865ADF1D16E8D26C0721C37F7ED617</key>
-		<dict>
-			<key>fileRef</key>
-			<string>058F754E11113A88C8D3EB58CFCBCD7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -1789,39 +1740,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7FBA8245F200E46C593B819C4E14D3AE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>86FDE1169032B5A0F9D9E031A512DC4C</string>
-				<string>D068C493EAEF86F8BFD0480AB36075EF</string>
-				<string>6B230B902BE6414D15A3C3C1F649DC8D</string>
-				<string>81F0B69E946A5B69E72C70516C0C9031</string>
-				<string>058F754E11113A88C8D3EB58CFCBCD7E</string>
-				<string>EDC7C70406D0544C4B44C4ECFF01D5A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Dependency</string>
-			<key>path</key>
-			<string>Dependency</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81F0B69E946A5B69E72C70516C0C9031</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMNavigationBarStyle.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>833F560CD97A2EA6DA24B197593985BB</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1834,13 +1752,6 @@
 			<string>UIImage+ImageWithColor-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84D083D86F2BB0A9537B6F7102BABADC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B009EC969B889E1968C4090534259F6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>852369906E05B1763C612B36451DAA98</key>
 		<dict>
@@ -1867,19 +1778,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>86FDE1169032B5A0F9D9E031A512DC4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BaseRoundedButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>87D5379F7B60204F95CE3E86DFB503A6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1893,44 +1791,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>89BB227FF81C3189BABC441A0EC9C8F1</key>
+		<key>87DF1F019CD08ED4EECB1649275144E5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EDC7C70406D0544C4B44C4ECFF01D5A5</string>
+			<string>A24233A716AC91F49CE88D7B0804CC31</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>89FF17B1332AB302E7E6020499E70875</key>
+		<key>8C4B98A58543FD966A5F6E48D7CE6DF1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FBA263594904ECDABD687067741514AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8FBA6B8F159200E5C8CE3D867F79DE86</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
-			<key>remoteInfo</key>
-			<string>UIImage+ImageWithColor</string>
-		</dict>
-		<key>9192A892D8B65D53639615C0E33777CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5E3D5B30EC45F677431D515AFB0DD01</string>
+			<string>2832B558B2092B562DC12CC47CFC7F28</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1941,31 +1812,51 @@
 				</array>
 			</dict>
 		</dict>
-		<key>933DF6394B27089CD66D28C82506CB9C</key>
+		<key>8D61D2812C010B72AEB46045D61621FA</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>6C234BBFE5A42DA6FCDDE63CD607D953</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
-			<key>remoteInfo</key>
-			<string>UIColor+InputMethods</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>9399383325C914D92CF1E0F7D6CB874B</key>
+		<key>9303F5E13B6C9D7476D0CAE5E65A9339</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1AB2F586C84F6EBE999FC0A45E2A810F</string>
-			<key>remoteInfo</key>
-			<string>RMStyleManager</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMTextFieldStyle.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93D78DD48AB8A2D0BA0FE71E806D8AC0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B0E2FF64DC1130662E6380081D77A8BA</string>
+				<string>BE9E9E26644370A211ED66DBB090CD22</string>
+				<string>F8FAA77FE143CE3A26133E1316C7B546</string>
+				<string>98E972849CB1D21F4B6A84E304D521BF</string>
+				<string>049CCE9B61FDA58CFBC53BFE4B1507AF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>DynamicStylesReloader</string>
+			<key>path</key>
+			<string>DynamicStylesReloader</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9431ECA8CDF3522A4E347DE227F4BBCD</key>
 		<dict>
@@ -1980,6 +1871,38 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>949F4BB571FB99A0C30B6143D3D19719</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2CAEEC4BA05BAA0F615D1D7841907E5A</string>
+				<string>F5F9B5DAF34A884F169716CDAD3D02FB</string>
+				<string>35063F6725A348B90893DC88A1347E4D</string>
+				<string>A1A32ED03627BC29F0E131134A144F34</string>
+				<string>8D61D2812C010B72AEB46045D61621FA</string>
+				<string>440399DB29BF7E033108E892BF7ECF10</string>
+				<string>440399DB29BF7E033108E892BF7ECF10</string>
+				<string>0B3C79240E2CE25BF88A2F57B56962A0</string>
+				<string>C5F141238A4015066B10196FD4CB5330</string>
+				<string>FFFF27DB4C4D62AF38E2F39B33FDE884</string>
+				<string>45E3AE41763596B347F9138558666C21</string>
+				<string>38515D00BC5BEDDB382A1FFDFAB2D143</string>
+				<string>1CF714566F23CB00FEA11B5A41B7DC69</string>
+				<string>DAEA820767B5A471619DFCCF63C4B279</string>
+				<string>FBBB212D4DC0F1742BE9FF17FA8280C5</string>
+				<string>5887DD1844F763045E909F5CFEE8EE70</string>
+				<string>FA523EB1365E616ABE9AA58F04DCD8E1</string>
+				<string>51CE3D1E576DC881D7C15D737BE5F186</string>
+				<string>8C4B98A58543FD966A5F6E48D7CE6DF1</string>
+				<string>B4D4CC2E3F87E07048C8D123A763472C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>94ED306526043E342BEAF74D468A513D</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1993,7 +1916,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>97915EB20F796CE833977E2F0B6D3EE6</key>
+		<key>982B6F9666C3B8830ADE39CBAC010E49</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2002,7 +1925,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RMStylishLabel.h</string>
+			<string>BaseRoundedButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>98DF8690448839EEEA8D737281C73D52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4B65A74D26A77CB1C50808B61E79DF56</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>98E972849CB1D21F4B6A84E304D521BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIView+RMStyleReloader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2020,32 +1963,6 @@
 			<string>UIImage_ImageWithColor.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>997BFB106DFBFBEC6D91A0B62BFC2572</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMSwitchStyle.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A8211399C5253CECF2DF244A2A83838</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIView+RMStyleReloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9BECEB9A876F3B084C310948DEF49CA3</key>
 		<dict>
@@ -2115,86 +2032,69 @@
 				<string>-fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>9D4E15510790EEEF68425C6C1DBA4436</key>
-		<dict>
-			<key>fileRef</key>
-			<string>81F0B69E946A5B69E72C70516C0C9031</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DC561447F14CAAE60E799EFCDE41E65</key>
+		<key>9E93BF82627CF88A97040DD221C42958</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>RMStyleManager</string>
+			<string>UIColor+InputMethods</string>
 			<key>target</key>
-			<string>1AB2F586C84F6EBE999FC0A45E2A810F</string>
+			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
 			<key>targetProxy</key>
-			<string>9399383325C914D92CF1E0F7D6CB874B</string>
+			<string>653460C9E8A1A6546D2BD8F491E7F300</string>
 		</dict>
-		<key>9ED8C65E1D8F8F3F4301834AD41173D8</key>
+		<key>9F782132F17722C669A1D16F54A859B2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMNavigationBar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A1A32ED03627BC29F0E131134A144F34</key>
 		<dict>
 			<key>fileRef</key>
-			<string>72C0D69D689E1A1846AEFE42B9040BD5</string>
+			<string>015CB73569534BFCA716BED9CD826582</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>A27E55594AB39CB20024BD05D3C35B89</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5186B1B3E1B0421BC2C5CF3B87D92D9D</string>
-			<key>buildSettings</key>
+			<key>settings</key>
 			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/RMStyleManager/RMStyleManager-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/RMStyleManager/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<key>ATTRIBUTES</key>
 				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
+					<string>Public</string>
 				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/RMStyleManager/RMStyleManager.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>RMStyleManager</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
 			</dict>
+		</dict>
+		<key>A24233A716AC91F49CE88D7B0804CC31</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UILabel+TextKerning.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2ADB4F6CB0C8E568C8FE7B5F9B51B83</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMStylishLabel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A31E279BC8D3251168EEDF2AAF560F51</key>
 		<dict>
@@ -2231,33 +2131,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>A87275E828B00F6A3ADECCE315CB0776</key>
+		<key>A65B32062E2CCD73BC5EDA17524C410F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>C6E5FCD60148D334B52C16C85154CED6</string>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A88646E696C4D7C573426119DC166471</key>
-		<dict>
-			<key>fileRef</key>
-			<string>97915EB20F796CE833977E2F0B6D3EE6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>UIImage_ImageWithColor.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>A8B8C2DA4EB1CE0E8772212D67494F99</key>
 		<dict>
@@ -2314,21 +2199,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>A8DD3A6BDFB11B93F9607C32EC6C06D4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>RMStyleManager.framework</string>
-			<key>path</key>
-			<string>RMStyleManager.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>A947F1E59169C8DC35FF63C91FBE50F4</key>
 		<dict>
@@ -2404,14 +2274,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AF3403D76AB237A4C5F847BBF45DAAE1</key>
+		<key>B02207962DC7F76845B4298A28B6C8B2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4B2265BA2E674366A2D0CD0A0705846B</string>
+			<string>E6EABF5CC7C482D481A87C334365CE87</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>B1C469BF97E3A4E95D6AA24DF1077F9A</key>
+		<key>B0E2FF64DC1130662E6380081D77A8BA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2420,9 +2290,30 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RMStylishRoundedButton.h</string>
+			<string>RMReloadStyleSubscriber.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B34D42563A17EBBC99C57E94F0F0A4C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FF080A9ACFE99262EA830EF2F58E6FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B4D4CC2E3F87E07048C8D123A763472C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>98E972849CB1D21F4B6A84E304D521BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>B5EE9C64EECDF849C61CA0794604C4BE</key>
 		<dict>
@@ -2440,6 +2331,28 @@
 			<string>UIImage+ImageWithColor</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B675736B6EC885BD28274C99906BC67F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0334BCE8914BEF049A22BB6FE30720D0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>RMStyleManager</string>
+			<key>path</key>
+			<string>RMStyleManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B686B9E7C81CF32E02017F31DF01D48C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>078178C22EEB4FCAAFC63BCB63DECDF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B75183D9CF23EB33B72B8E4D1667D5A8</key>
 		<dict>
@@ -2474,13 +2387,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BA3CF3FA20E4B0CF2DED459B4023D6B9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6753425D76545D0C50C422F14863B23A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2497,13 +2403,6 @@
 			<string>SOURCE_ROOT</string>
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC39DEBAFB4C5386C1715CA4E8A3DDFE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F160A4323EBC792453A6134E2D4801A4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>BC761550B0625B5AD291B1AB95AE8D8A</key>
 		<dict>
@@ -2532,6 +2431,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BDD50881B42F45218922B3B833A939FE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2ADB4F6CB0C8E568C8FE7B5F9B51B83</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BE24FB370C1C40045194D709D3CC86C6</key>
 		<dict>
 			<key>children</key>
@@ -2543,6 +2449,45 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE9E9E26644370A211ED66DBB090CD22</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMReloadStyleSubscriber.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BED8E9D761CB199929E4658A8D3F1E59</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C99B11691044C6F03048A5BC6F748121</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BF3D1BF7E015D2DE9174AE65259E8437</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMStyleManager-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2559,42 +2504,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C217B0E3440D9650281C8EE1891E8E6F</key>
+		<key>C5F00CD9CD203A204037EA7FA22BC3B2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>617263971D9430EB2AFD09CFB74D03DF</string>
+				<string>982B6F9666C3B8830ADE39CBAC010E49</string>
+				<string>4B65A74D26A77CB1C50808B61E79DF56</string>
+				<string>0C7AEE170DA87CF7D1E2B13F154F90AF</string>
+				<string>11790E2A48F5A97615DB87699DFE2BFA</string>
+				<string>2832B558B2092B562DC12CC47CFC7F28</string>
+				<string>A24233A716AC91F49CE88D7B0804CC31</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>RMStyleManager</string>
+			<string>Dependency</string>
 			<key>path</key>
-			<string>RMStyleManager</string>
+			<string>Dependency</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C5034EEC0D80E8B34F42528EC89F1868</key>
+		<key>C5F141238A4015066B10196FD4CB5330</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>DF0890E0828BC2DF16DF9392C148A547</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIView+RMStyleReloader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>C64C9BCE07871DF947EAE375F50A2831</key>
+		<key>C99B11691044C6F03048A5BC6F748121</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3601A86548B3766E0E3391CFE8C69CCE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C6E5FCD60148D334B52C16C85154CED6</key>
+		<key>CABAD3AC15BBF280608FB456439EF22F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2603,7 +2554,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RMReloadStyleSubscriber.h</string>
+			<string>RMStylishComponent.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2626,7 +2577,7 @@
 			<array>
 				<string>D73A67E97A5DAA240863CEA05826D033</string>
 				<string>3601A86548B3766E0E3391CFE8C69CCE</string>
-				<string>A8DD3A6BDFB11B93F9607C32EC6C06D4</string>
+				<string>FCDC65F88C5C622CDE51983DE7941D9D</string>
 				<string>6AC2165E1E671A61FD1A37975591D54D</string>
 				<string>9967376D5962F6C8203044E17BAF8CD3</string>
 			</array>
@@ -2651,9 +2602,9 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>9DC561447F14CAAE60E799EFCDE41E65</string>
-				<string>D1916E6FCDEDBCEC8B79CECAD69770D7</string>
-				<string>238B8BD0E63F46E6F93CB00E3C30ACC1</string>
+				<string>373F2C87AAB30300EE2464D60FB4B290</string>
+				<string>182B2DFE5273764CF3D91BD0B954AED8</string>
+				<string>65CBF682429490A49F7097D20998DB11</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -2679,18 +2630,18 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>D068C493EAEF86F8BFD0480AB36075EF</key>
+		<key>CE42815DD82B2C228FC8B7D7B587E3F6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BaseRoundedButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>68F076E039D45D5B6B23C76E9F9CB096</string>
+			<key>remoteInfo</key>
+			<string>RMStyleManager-RMStyleManager</string>
 		</dict>
 		<key>D0F1A04D04A131B040DC94C4A023368F</key>
 		<dict>
@@ -2714,16 +2665,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D1916E6FCDEDBCEC8B79CECAD69770D7</key>
+		<key>D288A04FC09470889B086A486EE51D04</key>
 		<dict>
+			<key>fileRef</key>
+			<string>5F19680EE9D4126C9DA34CE98EA352BD</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>UIColor+InputMethods</string>
-			<key>target</key>
-			<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
-			<key>targetProxy</key>
-			<string>933DF6394B27089CD66D28C82506CB9C</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D3119B749C352F133CBC9D48AC909BE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RMStyleManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D3D1A1027F02E9714190FC2986BC39FA</key>
 		<dict>
@@ -2774,11 +2734,24 @@
 			<key>targets</key>
 			<array>
 				<string>CCB00D283DCD539F36E3B0C336F438D4</string>
-				<string>1AB2F586C84F6EBE999FC0A45E2A810F</string>
+				<string>F45715EA0E9B22014A405E5A4D5871DC</string>
 				<string>68F076E039D45D5B6B23C76E9F9CB096</string>
 				<string>2648FF063F23922FAE8DF2AFEFBF5538</string>
 				<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
 			</array>
+		</dict>
+		<key>D5C547435E745CC115F27A4A8106BEA5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMButtonStyle.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D73A67E97A5DAA240863CEA05826D033</key>
 		<dict>
@@ -2795,33 +2768,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>D7C827C2AB7B4B3B76C0D4B17B8F4D5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>191ED25536AB1B593C24E89D904302A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D7EE04D3EFC28F88E9A6CAF1FA896FD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMTextFieldStyle.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D8B8DDC3FB4EA39A6B4143A376434FD7</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2834,6 +2780,27 @@
 			<string>UIImage+ImageWithColor-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DA37745020F507FB5FCD0AD068AD9A95</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A65B32062E2CCD73BC5EDA17524C410F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DAEA820767B5A471619DFCCF63C4B279</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F27187E8D673363806EEEEEB80940617</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>DCB43F8EBF82BE5AF0596A5443BD81DD</key>
 		<dict>
@@ -2874,6 +2841,19 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>DF0890E0828BC2DF16DF9392C148A547</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMStyleManager-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DFB0B6EFFF050FE4E41D1E354DC5EA71</key>
 		<dict>
@@ -2935,6 +2915,17 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>E0AE04E53CDA07C3784FD7030D36E586</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>UIImage+ImageWithColor</string>
+			<key>target</key>
+			<string>7C1E57CAFDB331BCDD8DA3BEFCAFFE52</string>
+			<key>targetProxy</key>
+			<string>30B5F144BDA14B942C4AE64C90C815F2</string>
+		</dict>
 		<key>E33D32FB43CE8FD7D8591C90587CFCB8</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -2949,6 +2940,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>E5133804D57FD3186339CD10FAF8D87A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>RMBaseStyle.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E57E25CD0A07460BC7F1E05966B67BF7</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2962,20 +2966,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E5E3D5B30EC45F677431D515AFB0DD01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMStyleReloadProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E69C76637B2591308B0D604C5426353C</key>
+		<key>E6EABF5CC7C482D481A87C334365CE87</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2984,36 +2975,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RMBaseStyle.m</string>
+			<string>RMStylishTextField.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E76D3BE710118A3F4D62C762E3798C58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMStyleSwitch.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E77455B77510DA5917FC1F16C9121C63</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5034EEC0D80E8B34F42528EC89F1868</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7775368076F5DB20181FEBEC5368E6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF70997A16DD91A0EBC81F15D37FD4CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>EA33E4F7A441A8DA3903A6629F70A894</key>
 		<dict>
@@ -3025,39 +2989,6 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>RMStyleManager-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB5466BF8099C45579727EE75883EF76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26A2602128D0F26BB84FDEAEC0EF5CEA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC783C3362E5771E290696FD8C8A2BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RMStylishComponent.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC7C70406D0544C4B44C4ECFF01D5A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UILabel+TextKerning.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3075,16 +3006,16 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EF70997A16DD91A0EBC81F15D37FD4CC</key>
+		<key>EEAD4C2B306E071AAECEDBE8FCBA4F05</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RMStyleManager-dummy.m</string>
+			<string>RMStyleManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3102,25 +3033,62 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>F160A4323EBC792453A6134E2D4801A4</key>
+		<key>F27187E8D673363806EEEEEB80940617</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>UIColor_InputMethods.framework</string>
+			<string>RMStylishLabel.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F1ACABA827A3F418F5C204D046E811F6</key>
+		<key>F45715EA0E9B22014A405E5A4D5871DC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6831A945C02CC31AA3202D80B72CE84B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>39A6BAD4F5441785CC7B8196D8C2006A</string>
+				<string>5611109F42FDFC7667BE66D9BC38DABD</string>
+				<string>BED8E9D761CB199929E4658A8D3F1E59</string>
+				<string>949F4BB571FB99A0C30B6143D3D19719</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>712CE58FBBF6957AE6FFC76CF073907F</string>
+				<string>9E93BF82627CF88A97040DD221C42958</string>
+				<string>E0AE04E53CDA07C3784FD7030D36E586</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>RMStyleManager</string>
+			<key>productName</key>
+			<string>RMStyleManager</string>
+			<key>productReference</key>
+			<string>FCDC65F88C5C622CDE51983DE7941D9D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>F5F9B5DAF34A884F169716CDAD3D02FB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>56464F0A82A7F4FB2D2D0FEB53F8FC11</string>
+			<string>E5133804D57FD3186339CD10FAF8D87A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>F6319CCC296C7807F34762A269BBB9DB</key>
 		<dict>
@@ -3153,7 +3121,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>F88B1F1ABC74C293063BBF10C198860F</key>
+		<key>F8FAA77FE143CE3A26133E1316C7B546</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3162,29 +3130,78 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RMStylishTextField.h</string>
+			<string>RMStyleReloadProtocol.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FBA263594904ECDABD687067741514AB</key>
+		<key>F91BA8D853BE2D067424A1D8A5166586</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RMStyleManager.h</string>
+			<string>RMButtonStyle.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FEF26AFA313F5A816F8398F90E73319C</key>
+		<key>FA523EB1365E616ABE9AA58F04DCD8E1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E76D3BE710118A3F4D62C762E3798C58</string>
+			<string>687A814DDCD4B2DE23AEFC9B16541035</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FBBB212D4DC0F1742BE9FF17FA8280C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>28D8F368EA18AB344ED4143BE6B98DC3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FCDC65F88C5C622CDE51983DE7941D9D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>RMStyleManager.framework</string>
+			<key>path</key>
+			<string>RMStyleManager.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FF080A9ACFE99262EA830EF2F58E6FF5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>UIColor_InputMethods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>FF181386DC13817BE12FA58A5DBC7157</key>
 		<dict>
@@ -3200,10 +3217,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>FFE964F228F35690AD565F40C1D28342</key>
+		<key>FFFF27DB4C4D62AF38E2F39B33FDE884</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B1C469BF97E3A4E95D6AA24DF1077F9A</string>
+			<string>EEAD4C2B306E071AAECEDBE8FCBA4F05</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3213,19 +3230,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>FFF66FBBF747318F4AE2AD2D0B51E276</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RMStyleManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

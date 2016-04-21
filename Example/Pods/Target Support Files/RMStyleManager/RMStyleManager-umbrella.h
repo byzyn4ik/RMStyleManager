@@ -10,6 +10,7 @@
 #import "RMButtonStyle.h"
 #import "RMLabelStyle.h"
 #import "RMNavigationBar.h"
+#import "RMNavigationBarStyle.h"
 #import "RMStyleManager.h"
 #import "RMStyleSwitch.h"
 #import "RMStylishComponent.h"
