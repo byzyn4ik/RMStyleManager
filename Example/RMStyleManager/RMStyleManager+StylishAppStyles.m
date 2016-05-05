@@ -103,8 +103,10 @@ static BOOL isStyleEnabledNext;
 
 #pragma mark - UIImageView
 
-- (RMImageViewStyle *)imageViewStyle {
++ (RMImageViewStyle *)imageViewStyle {
   RMImageViewStyle *style = [RMImageViewStyle new];
+  style.renderingMode = UIImageRenderingModeAlwaysTemplate;
+  style.tintColor = [UIColor orangeColor];
   return style;
 }
 @end

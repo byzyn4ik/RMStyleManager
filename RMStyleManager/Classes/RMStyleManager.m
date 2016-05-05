@@ -9,11 +9,7 @@
 #import "RMStyleManager.h"
 #import <objc/runtime.h>
 
-#import "RMButtonStyle.h"
-#import "RMLabelStyle.h"
 #import "RMStyleReloadProtocol.h"
-#import "RMSwitchStyle.h"
-#import "RMTextFieldStyle.h"
 
 @implementation RMStyleManager
 
