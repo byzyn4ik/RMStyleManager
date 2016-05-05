@@ -6,8 +6,9 @@
 //  Copyright © 2016 Maks Petrovsky. All rights reserved.
 //
 
-#import "RMStyleManager.h"
-#import "RMStylishRoundedButton.h"
+#import <RMStyleManager/RMStyleManager.h>
+#import <RMStyleManager/RMStylishRoundedButton.h>
+
 #import "RMViewController.h"
 
 @interface RMViewController ()

@@ -9,7 +9,7 @@
 #import "RMNavigationBar.h"
 #import "RMNavigationBarStyle.h"
 #import "UIView+RMStyleReloader.h"
-#import <UIImage+ImageWithColor/UIImage+ImageWithColor.h>
+#import "UIImage+ImageWithColor.h"
 
 @interface RMNavigationBar () <RMStylishComponent>
 

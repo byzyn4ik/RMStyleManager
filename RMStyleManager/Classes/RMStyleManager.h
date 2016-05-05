@@ -14,6 +14,7 @@
 #import "RMNavigationBarStyle.h"
 #import "RMSwitchStyle.h"
 #import "RMTextFieldStyle.h"
+#import "RMImageViewStyle.h"
 
 @interface RMStyleManager : NSObject
 

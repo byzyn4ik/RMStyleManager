@@ -10,8 +10,6 @@
 
 @interface RMAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic, strong) UIWindow *window;
-
+@property(nonatomic, strong) UIWindow *window;
 
 @end
-
