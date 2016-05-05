@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C8B7808895B77FDED75282CA639CF0D"
+               BlueprintIdentifier = "FF05EE6F4D603F798C4EF306C9FB58C9"
                BuildableName = "UIColor_InputMethods.framework"
                BlueprintName = "UIColor+InputMethods"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C8B7808895B77FDED75282CA639CF0D"
+            BlueprintIdentifier = "FF05EE6F4D603F798C4EF306C9FB58C9"
             BuildableName = "UIColor_InputMethods.framework"
             BlueprintName = "UIColor+InputMethods"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -6,8 +6,8 @@
 //  Copyright © 2016 Maks Petrovsky. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "RMStyleReloadProtocol.h"
+#import <Foundation/Foundation.h>
 
 @interface RMReloadStyleSubscriber : NSObject
 

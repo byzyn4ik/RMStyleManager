@@ -4,16 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>APRoundedButton-APRoundedButton.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>APRoundedButton.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-RMStyleManager_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3435BF099FE72E6871D268676D624FAD</key>
+		<key>87605F42D4861F9F358454D55C3DAB19</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C8B7808895B77FDED75282CA639CF0D</key>
+		<key>9E223CEEA30278140B0B75139B7CCA8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5DC104C148CEB6F1070CDFB6EA58DF57</key>
+		<key>C45A1503A6A1361B8146AE605C36F630</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9CCBF5407AD1D0EB7643B0187750166D</key>
+		<key>E33542D136E42856732E36A7B2E71635</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3EDB67D9521AB1A1CA6CF4D63BEAD41</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B888B17675327F926CFF60B5D4C48B29</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F31D2112913E3F089066CEDC7CC2DD8D</key>
+		<key>FF05EE6F4D603F798C4EF306C9FB58C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

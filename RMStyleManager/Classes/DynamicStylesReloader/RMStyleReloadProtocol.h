@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString* reloadStylesNotification = @"ReloadStylesNotification";
+static NSString *reloadStylesNotification = @"ReloadStylesNotification";
 
 @protocol RMStyleReloadProtocol <NSObject>
 

@@ -8,16 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RMLabelStyle.h"
+#import "RMBaseStyle.h"
 #import "RMButtonStyle.h"
+#import "RMLabelStyle.h"
+#import "RMNavigationBarStyle.h"
 #import "RMSwitchStyle.h"
 #import "RMTextFieldStyle.h"
-#import "RMBaseStyle.h"
-#import "RMNavigationBarStyle.h"
 
 @interface RMStyleManager : NSObject
 
-+ (RMBaseStyle*)styleForKey:(NSString*)key;
++ (RMBaseStyle *)styleForKey:(NSString *)key;
 + (void)reloadAllStyles;
 
 @end

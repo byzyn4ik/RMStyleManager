@@ -7,19 +7,21 @@
 
 @interface BaseRoundedButton : UIButton
 
-@property (nonatomic, assign) double cornerRadius;
-@property (nonatomic, assign) double imagePadding;
-@property (nonatomic, strong) NSString *leftImageName;
-@property (nonatomic, strong) NSString *rightImageName;
-@property (retain ,nonatomic) UIColor *borderColor;
-@property (assign ,nonatomic) CGFloat borderWidth;
-@property (nonatomic, strong) UIImage *rightAccessoryImage;
-@property (nonatomic, strong) UIImage *rightHighlightedAccessoryImage;
-@property (nonatomic, strong) UIImage *leftAccessoryImage ;
-@property (nonatomic, strong) UIImage *leftHighlightedAccessoryImage;
+@property(nonatomic, assign) double cornerRadius;
+@property(nonatomic, assign) double imagePadding;
+@property(nonatomic, strong) NSString *leftImageName;
+@property(nonatomic, strong) NSString *rightImageName;
+@property(nonatomic, strong) UIColor *borderColor;
+@property(assign, nonatomic) CGFloat borderWidth;
+@property(nonatomic, strong) UIImage *rightAccessoryImage;
+@property(nonatomic, strong) UIImage *rightHighlightedAccessoryImage;
+@property(nonatomic, strong) UIImage *leftAccessoryImage;
+@property(nonatomic, strong) UIImage *leftHighlightedAccessoryImage;
 
-- (void)setRightAccessoryImage:(UIImage *)rightAccessoryImage forState:(UIControlState)state;
-- (void)setLeftAccessoryImage:(UIImage *)leftAccessoryImage forState:(UIControlState)state;
+- (void)setRightAccessoryImage:(UIImage *)rightAccessoryImage
+                      forState:(UIControlState)state;
+- (void)setLeftAccessoryImage:(UIImage *)leftAccessoryImage
+                     forState:(UIControlState)state;
 - (void)applyStyle;
 
 @end
