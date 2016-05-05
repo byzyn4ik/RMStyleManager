@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DAC20D11CC61EFD00432F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC20D01CC61EFD00432F4E /* LaunchScreen.storyboard */; };
 		4DAC20D41CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC20D31CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m */; };
+		4DDDAE8C1CDBAA9E00B0827C /* At-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDDAE8B1CDBAA9E00B0827C /* At-icon.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BA09E76886BB65E14F25BDEB /* Pods_RMStyleManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737EAD9D625B0A59D71AE6B4 /* Pods_RMStyleManager_Example.framework */; };
+		ECF579212AF0D1A672888BE0 /* Pods_RMStyleManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B287C9257EFA4EBFE251003 /* Pods_RMStyleManager_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00604B837DCB7F855390512B /* Pods-RMStyleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMStyleManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4CBAD1723239266617DF9F31 /* Pods-RMStyleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMStyleManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B287C9257EFA4EBFE251003 /* Pods_RMStyleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMStyleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAC20D01CC61EFD00432F4E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DAC20D21CC61F8300432F4E /* RMStyleManager+StylishAppStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMStyleManager+StylishAppStyles.h"; sourceTree = "<group>"; };
 		4DAC20D31CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMStyleManager+StylishAppStyles.m"; sourceTree = "<group>"; };
+		4DDDAE8B1CDBAA9E00B0827C /* At-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "At-icon.png"; sourceTree = "<group>"; };
 		500E918F83FD5D4F1807EC02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RMStyleManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMStyleManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +63,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		737EAD9D625B0A59D71AE6B4 /* Pods_RMStyleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMStyleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA3924CDA6850A1C2279536 /* Pods-RMStyleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMStyleManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B81A1B971F8F26B2EEA63A72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C31E9213F3CE251557675A64 /* Pods-RMStyleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMStyleManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DC59DBCC77EC46F8C01CDB61 /* RMStyleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMStyleManager.podspec; path = ../RMStyleManager.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BA09E76886BB65E14F25BDEB /* Pods_RMStyleManager_Example.framework in Frameworks */,
+				ECF579212AF0D1A672888BE0 /* Pods_RMStyleManager_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,15 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5BEE2CFDBE0C00B72F16BB31 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				00604B837DCB7F855390512B /* Pods-RMStyleManager_Example.debug.xcconfig */,
-				4CBAD1723239266617DF9F31 /* Pods-RMStyleManager_Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				5BEE2CFDBE0C00B72F16BB31 /* Pods */,
+				B8867DFCC08366A26E1FBA5C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,7 +123,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				737EAD9D625B0A59D71AE6B4 /* Pods_RMStyleManager_Example.framework */,
+				2B287C9257EFA4EBFE251003 /* Pods_RMStyleManager_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +139,7 @@
 				4DAC20D31CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m */,
 				6003F5A5195388D20070C39A /* RMViewController.h */,
 				6003F5A6195388D20070C39A /* RMViewController.m */,
+				4DDDAE8B1CDBAA9E00B0827C /* At-icon.png */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -193,6 +187,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B8867DFCC08366A26E1FBA5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3924CDA6850A1C2279536 /* Pods-RMStyleManager_Example.debug.xcconfig */,
+				C31E9213F3CE251557675A64 /* Pods-RMStyleManager_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "RMStyleManager_Example" */;
 			buildPhases = (
-				C4054E73716BB15D267192AE /* Check Pods Manifest.lock */,
+				230F761B3D58B1935FF9EB8E /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				88D702E4541A03E8C1252DAF /* Embed Pods Frameworks */,
-				5F1F0649213E83A0AEA45F02 /* Copy Pods Resources */,
+				6D3750CE7DD84827F8215434 /* Embed Pods Frameworks */,
+				94D33AA6577BC32464A39D3E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4DDDAE8C1CDBAA9E00B0827C /* At-icon.png in Resources */,
 				4DAC20D11CC61EFD00432F4E /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -291,22 +295,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F1F0649213E83A0AEA45F02 /* Copy Pods Resources */ = {
+		230F761B3D58B1935FF9EB8E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		88D702E4541A03E8C1252DAF /* Embed Pods Frameworks */ = {
+		6D3750CE7DD84827F8215434 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,19 +325,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4054E73716BB15D267192AE /* Check Pods Manifest.lock */ = {
+		94D33AA6577BC32464A39D3E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMStyleManager_Example/Pods-RMStyleManager_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -463,7 +467,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00604B837DCB7F855390512B /* Pods-RMStyleManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 6BA3924CDA6850A1C2279536 /* Pods-RMStyleManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -479,7 +483,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CBAD1723239266617DF9F31 /* Pods-RMStyleManager_Example.release.xcconfig */;
+			baseConfigurationReference = C31E9213F3CE251557675A64 /* Pods-RMStyleManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

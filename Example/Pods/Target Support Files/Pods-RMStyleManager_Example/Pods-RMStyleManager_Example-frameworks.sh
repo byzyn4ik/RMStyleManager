@@ -84,13 +84,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-RMStyleManager_Example/APRoundedButton.framework"
   install_framework "Pods-RMStyleManager_Example/RMStyleManager.framework"
   install_framework "Pods-RMStyleManager_Example/UIColor_InputMethods.framework"
   install_framework "Pods-RMStyleManager_Example/UIImage_ImageWithColor.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-RMStyleManager_Example/APRoundedButton.framework"
   install_framework "Pods-RMStyleManager_Example/RMStyleManager.framework"
   install_framework "Pods-RMStyleManager_Example/UIColor_InputMethods.framework"
   install_framework "Pods-RMStyleManager_Example/UIImage_ImageWithColor.framework"

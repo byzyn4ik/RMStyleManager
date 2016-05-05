@@ -8,8 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "RMStyleManager"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of RMStyleManager."
+  s.version          = "0.1.1"
+  s.summary          = "RMStyleManager is style manager for your application working in xibs, storyboards and from code."
+  s.description      = "RMStyleManager is style manager for your application working in xibs, storyboards and from code. You can simply set style filed in component user info to set style. To define style simply create category for RMStyleManager. The style string from compenent will use style from Style Manager."
+
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

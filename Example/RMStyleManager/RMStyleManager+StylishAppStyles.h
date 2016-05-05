@@ -10,4 +10,6 @@
 
 @interface RMStyleManager (StylishAppStyles)
 
+- (RMImageViewStyle *)imageViewStyle;
+
 @end

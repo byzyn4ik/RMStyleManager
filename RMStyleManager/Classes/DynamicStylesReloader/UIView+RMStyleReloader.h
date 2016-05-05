@@ -6,9 +6,9 @@
 //  Copyright © 2016 Maks Petrovsky. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "RMReloadStyleSubscriber.h"
 #import "RMStylishComponent.h"
+#import <UIKit/UIKit.h>
 
 @interface UIView (RMStyleReloader)
 

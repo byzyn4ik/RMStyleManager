@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/APRoundedButton.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/RMStyleManager.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UIColor_InputMethods.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UIImage_ImageWithColor.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "APRoundedButton" -framework "RMStyleManager" -framework "UIColor_InputMethods" -framework "UIImage_ImageWithColor"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/RMStyleManager.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UIColor_InputMethods.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/UIImage_ImageWithColor.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "RMStyleManager" -framework "UIColor_InputMethods" -framework "UIImage_ImageWithColor"
 PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RMStyleManager_Example"
 PODS_ROOT = ${SRCROOT}/Pods

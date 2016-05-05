@@ -1,6 +1,0 @@
-framework module APRoundedButton {
-  umbrella header "APRoundedButton-umbrella.h"
-
-  export *
-  module * { export * }
-}
