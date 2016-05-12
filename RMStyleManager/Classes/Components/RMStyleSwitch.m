@@ -49,6 +49,10 @@
 }
 
 - (void)applyStyle:(RMSwitchStyle *)style {
+  [self applyBaseStyle:style];
+  if (style.backgroundColor) {
+    self.backgroundColor = style.backgroundColor;
+  }
   if (style.thumbTint) {
     self.thumbTintColor = style.thumbTint;
   }
@@ -60,9 +64,6 @@
   }
   if (style.cornerHalfSize) {
     self.layer.cornerRadius = self.frame.size.height / 2.f;
-  }
-  if (style.cornerRadius) {
-    self.layer.cornerRadius = style.cornerRadius;
   }
 }
 

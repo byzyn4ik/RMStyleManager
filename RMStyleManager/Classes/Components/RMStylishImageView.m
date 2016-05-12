@@ -79,20 +79,6 @@
 
 - (void)applyStyle:(RMImageViewStyle *)style {
   self.renderingMode = style.renderingMode;
-  if (style.cornerRadius) {
-    self.layer.cornerRadius = style.cornerRadius;
-  }
-  if (style.borderWidth) {
-    self.layer.borderWidth = style.borderWidth;
-  }
-  if (style.borderColor) {
-    self.layer.borderColor = style.borderColor.CGColor;
-  }
-  if (style.backgroundColor) {
-    self.backgroundColor = style.backgroundColor;
-  }
-  if (style.tintColor) {
-    self.tintColor = style.tintColor;
-  }
+  [self applyBaseStyle:style];
 }
 @end

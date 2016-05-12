@@ -10,11 +10,12 @@
 
 #import "RMBaseStyle.h"
 #import "RMButtonStyle.h"
+#import "RMImageViewStyle.h"
 #import "RMLabelStyle.h"
 #import "RMNavigationBarStyle.h"
 #import "RMSwitchStyle.h"
 #import "RMTextFieldStyle.h"
-#import "RMImageViewStyle.h"
+#import "RMViewStyle.h"
 
 @interface RMStyleManager : NSObject
 

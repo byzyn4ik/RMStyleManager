@@ -14,9 +14,6 @@
 @property(nonatomic, strong) UIColor *onTintColor;
 @property(nonatomic, strong) UIColor *thumbTint;
 @property(nonatomic, strong) UIColor *tintColor;
-
-@property(nonatomic, strong) UIColor *backgroundColor;
 @property(nonatomic) BOOL cornerHalfSize;
-@property(nonatomic) CGFloat cornerRadius;
 
 @end

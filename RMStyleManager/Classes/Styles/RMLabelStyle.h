@@ -13,9 +13,6 @@
 @property(nonatomic, strong) UIColor *textColor;
 @property(nonatomic, strong) UIFont *font;
 @property(nonatomic, strong) UIColor *shadowColor;
-
-@property(nonatomic, strong) UIColor *borderColor;
-
 @property(nonatomic, strong) UIColor *fontColor;
 @property(nonatomic, assign) CGFloat fontSize;
 @property(nonatomic, assign) NSTextAlignment textAlignment;

@@ -7,6 +7,7 @@
 //
 
 #import "RMStyleManager+StylishAppStyles.h"
+#import "RMViewStyle.h"
 
 @implementation RMStyleManager (StylishAppStyles)
 
@@ -107,6 +108,22 @@ static BOOL isStyleEnabledNext;
   RMImageViewStyle *style = [RMImageViewStyle new];
   style.renderingMode = UIImageRenderingModeAlwaysTemplate;
   style.tintColor = [UIColor orangeColor];
+  return style;
+}
+
+#pragma mark - View Style
+
++ (RMViewStyle *)baseViewStyle {
+  RMViewStyle *style = [RMViewStyle new];
+  style.backgroundColor = [UIColor colorWithWhite:0.f alpha:0.2f];
+  style.cornerRadius = 10.f;
+  style.borderColor = [UIColor colorWithWhite:1.f alpha:0.2f];
+  return style;
+}
+
++ (RMViewStyle *)bgViewStyle {
+  RMViewStyle *style = [RMViewStyle new];
+  style.backgroundColor = [UIColor greenColor];
   return style;
 }
 @end

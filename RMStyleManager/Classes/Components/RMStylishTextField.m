@@ -139,6 +139,7 @@
 }
 
 - (void)applyStyle:(RMTextFieldStyle *)style {
+  [self applyBaseStyle:style];
   if (style.backgroundColor) {
     self.backgroundColor = style.backgroundColor;
   }
@@ -174,15 +175,6 @@
   }
   if (style.returnKeyType) {
     self.returnKeyType = style.returnKeyType;
-  }
-  if (style.cornerRadius) {
-    self.layer.cornerRadius = style.cornerRadius;
-  }
-  if (style.borderWidth) {
-    self.layer.borderWidth = style.borderWidth;
-  }
-  if (style.borderColor) {
-    self.layer.borderColor = style.borderColor.CGColor;
   }
   if (style.leftImage) {
     [self setLeftImage:style.leftImage];

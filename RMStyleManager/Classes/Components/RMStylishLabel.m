@@ -54,6 +54,10 @@
 }
 
 - (void)applyStyle:(RMLabelStyle *)style {
+  [self applyBaseStyle:style];
+  if (style.backgroundColor) {
+    self.backgroundColor = style.backgroundColor;
+  }
   if (style.textColor) {
     self.textColor = style.textColor;
   }
@@ -65,18 +69,6 @@
   }
   if (style.kerning) {
     [self setKerning:style.kerning];
-  }
-  if (style.backgroundColor) {
-    self.backgroundColor = style.backgroundColor;
-  }
-  if (style.borderWidth) {
-    self.layer.borderWidth = style.borderWidth;
-  }
-  if (style.borderColor) {
-    self.layer.borderColor = style.borderColor.CGColor;
-  }
-  if (style.cornerRadius) {
-    self.layer.cornerRadius = style.cornerRadius;
   }
   if (style.fontColor) {
     self.textColor = style.fontColor;

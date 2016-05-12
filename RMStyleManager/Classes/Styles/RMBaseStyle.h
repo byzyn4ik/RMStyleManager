@@ -10,8 +10,11 @@
 
 @interface RMBaseStyle : NSObject
 
+@property(nonatomic) BOOL dontMaskToBounds;
 @property(nonatomic, strong) UIColor *backgroundColor;
 @property(nonatomic, assign) CGFloat borderWidth;
 @property(nonatomic, assign) CGFloat cornerRadius;
+@property(nonatomic, strong) UIColor *borderColor;
+@property(nonatomic, strong) UIColor *tintColor;
 
 @end

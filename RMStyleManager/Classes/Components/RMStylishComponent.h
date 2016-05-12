@@ -7,6 +7,7 @@
 //
 
 #import "RMBaseStyle.h"
+#import "UIView+ApplyBaseStyle.h"
 #import <Foundation/Foundation.h>
 
 @protocol RMStylishComponent <NSObject>

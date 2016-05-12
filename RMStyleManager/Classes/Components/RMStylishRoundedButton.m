@@ -54,17 +54,10 @@
 }
 
 - (void)applyStyle:(RMButtonStyle *)style {
+  [self applyBaseStyle:style];
+
   if (style.font) {
     self.titleLabel.font = style.font;
-  }
-  if (style.cornerRadius) {
-    self.cornerRadius = style.cornerRadius;
-  }
-  if (style.borderWidth) {
-    self.borderWidth = style.borderWidth;
-  }
-  if (style.borderColor) {
-    self.borderColor = style.borderColor;
   }
   if (style.textColor) {
     [self setTitleColor:style.textColor forState:UIControlStateNormal];

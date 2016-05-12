@@ -10,11 +10,7 @@
 
 @interface RMButtonStyle : RMBaseStyle
 
-@property(nonatomic) CGFloat cornerRadius;
-@property(nonatomic, strong) UIColor *borderColor;
 @property(nonatomic, strong) UIFont *font;
-@property(nonatomic) CGFloat borderWidth;
-@property(nonatomic, strong) UIColor *backgroundColor;
 @property(nonatomic, strong) UIColor *textColor;
 @property(nonatomic) UIColor *highlightedBgColor;
 @property(nonatomic) UIColor *highlightedTextColor;
