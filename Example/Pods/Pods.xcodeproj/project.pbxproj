@@ -30,12 +30,12 @@
 		4D228A7A1CE4A3DC00B6533B /* RMViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A781CE4A3DC00B6533B /* RMViewStyle.m */; };
 		4D228A7D1CE4A4D800B6533B /* RMStylishView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A7B1CE4A4D800B6533B /* RMStylishView.h */; };
 		4D228A7E1CE4A4D800B6533B /* RMStylishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A7C1CE4A4D800B6533B /* RMStylishView.m */; };
-		4D228A831CE4A53F00B6533B /* UIView+ApplyBaseStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A811CE4A53F00B6533B /* UIView+ApplyBaseStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D228A841CE4A53F00B6533B /* UIView+ApplyBaseStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A821CE4A53F00B6533B /* UIView+ApplyBaseStyle.m */; };
 		4DDE3C721CE4AB32005E0060 /* RMStylishView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A7B1CE4A4D800B6533B /* RMStylishView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DDE3C731CE4AB37005E0060 /* RMStylishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A7C1CE4A4D800B6533B /* RMStylishView.m */; };
 		4DDE3C751CE4AB41005E0060 /* RMViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A781CE4A3DC00B6533B /* RMViewStyle.m */; };
 		4DDE3C761CE4AB44005E0060 /* RMViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A771CE4A3DC00B6533B /* RMViewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DDE3C7A1CE4AE48005E0060 /* UIView+ApplyBaseStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDE3C781CE4AE48005E0060 /* UIView+ApplyBaseStyle.h */; };
+		4DDE3C7B1CE4AE48005E0060 /* UIView+ApplyBaseStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE3C791CE4AE48005E0060 /* UIView+ApplyBaseStyle.m */; };
 		4FEE3C9BE99E642D477259E4E352D439 /* UIView+RMStyleReloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D5ACA6D4C40DA41485E6EC8DFC8BDD /* UIView+RMStyleReloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56B418255AF42A1A3C0DC661EF76DE22 /* RMButtonStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 754255EF98DDB066B8B428498031B0E9 /* RMButtonStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC3009B840D40AB6ED0A4584E032B13 /* BaseRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EF493EFA6B9C1C856E4566A91B8A7B /* BaseRoundedButton.m */; };
@@ -150,8 +150,8 @@
 		4D228A781CE4A3DC00B6533B /* RMViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMViewStyle.m; sourceTree = "<group>"; };
 		4D228A7B1CE4A4D800B6533B /* RMStylishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStylishView.h; sourceTree = "<group>"; };
 		4D228A7C1CE4A4D800B6533B /* RMStylishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStylishView.m; sourceTree = "<group>"; };
-		4D228A811CE4A53F00B6533B /* UIView+ApplyBaseStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ApplyBaseStyle.h"; sourceTree = "<group>"; };
-		4D228A821CE4A53F00B6533B /* UIView+ApplyBaseStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ApplyBaseStyle.m"; sourceTree = "<group>"; };
+		4DDE3C781CE4AE48005E0060 /* UIView+ApplyBaseStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ApplyBaseStyle.h"; sourceTree = "<group>"; };
+		4DDE3C791CE4AE48005E0060 /* UIView+ApplyBaseStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ApplyBaseStyle.m"; sourceTree = "<group>"; };
 		5184C0DFE64AE2CAC00F798DE06DFA24 /* UIColor+InputMethods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+InputMethods-prefix.pch"; sourceTree = "<group>"; };
 		532344C5A600A8205AE436EBC339FC8F /* RMStyleManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMStyleManager.modulemap; sourceTree = "<group>"; };
 		596A345BF4AF17093320A8A0DAF338AF /* RMStyleManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMStyleManager.xcconfig; sourceTree = "<group>"; };
@@ -319,7 +319,6 @@
 		3C922BFE69533A7B0B73A08574BD27E6 /* RMStyleManager */ = {
 			isa = PBXGroup;
 			children = (
-				4D228A801CE4A52700B6533B /* Categories */,
 				9575B06776F54A9CE0CB2587CD56F625 /* Classes */,
 			);
 			path = RMStyleManager;
@@ -390,11 +389,11 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		4D228A801CE4A52700B6533B /* Categories */ = {
+		4DDE3C771CE4AE48005E0060 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				4D228A811CE4A53F00B6533B /* UIView+ApplyBaseStyle.h */,
-				4D228A821CE4A53F00B6533B /* UIView+ApplyBaseStyle.m */,
+				4DDE3C781CE4AE48005E0060 /* UIView+ApplyBaseStyle.h */,
+				4DDE3C791CE4AE48005E0060 /* UIView+ApplyBaseStyle.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -462,6 +461,7 @@
 		9575B06776F54A9CE0CB2587CD56F625 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4DDE3C771CE4AE48005E0060 /* Categories */,
 				31A64A847BACFF2D18060DA2A32DF2FC /* RMStyleManager.h */,
 				E04BD6BF9A9A2F5E30051F53262D150A /* RMStyleManager.m */,
 				4CDD4CEBACBED1981D92638F3656FBCD /* Components */,
@@ -544,7 +544,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D228A831CE4A53F00B6533B /* UIView+ApplyBaseStyle.h in Headers */,
 				EB155B914DF0722303E78D8B2EFEBB3C /* BaseRoundedButton.h in Headers */,
 				07BDD4BA54124D1D9062158892CFDC3E /* RMBaseStyle.h in Headers */,
 				4DDE3C761CE4AB44005E0060 /* RMViewStyle.h in Headers */,
@@ -556,6 +555,7 @@
 				D8A41C1F2DBCAEC4A8803B11FB97A5BF /* RMReloadStyleSubscriber.h in Headers */,
 				928BA649EE46B36F4FA1DE8F4F085516 /* RMStyleManager-umbrella.h in Headers */,
 				4C5C00AB7712EBB61454719BCD997094 /* RMStyleManager.h in Headers */,
+				4DDE3C7A1CE4AE48005E0060 /* UIView+ApplyBaseStyle.h in Headers */,
 				61AEEA442BDFBA787D3498E9D828AB4E /* RMStyleReloadProtocol.h in Headers */,
 				D778FF37320F3190B5D41E4863A0EB0C /* RMStyleSwitch.h in Headers */,
 				B7B310C4A5177733447A4DB663CACD7F /* RMStylishComponent.h in Headers */,
@@ -753,11 +753,11 @@
 				CCF9E40C717F60E26362690D3B8FA950 /* RMStylishRoundedButton.m in Sources */,
 				006535BB0D162076551A025D42F1EDC8 /* RMStylishTextField.m in Sources */,
 				DAFCAC80653F4195CF0898A3E46B6BDB /* RMSwitchStyle.m in Sources */,
+				4DDE3C7B1CE4AE48005E0060 /* UIView+ApplyBaseStyle.m in Sources */,
 				1E9AC63B46C1CC7E0C86A1EB96B7BC04 /* RMTextFieldStyle.m in Sources */,
 				4DDE3C731CE4AB37005E0060 /* RMStylishView.m in Sources */,
 				119A18A6FC5C1D5B221A741C013CE651 /* UILabel+TextKerning.m in Sources */,
 				4DDE3C751CE4AB41005E0060 /* RMViewStyle.m in Sources */,
-				4D228A841CE4A53F00B6533B /* UIView+ApplyBaseStyle.m in Sources */,
 				D1400DC8C77C82A98DA8171EC4C432C3 /* UIView+RMStyleReloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
