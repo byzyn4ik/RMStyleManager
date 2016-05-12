@@ -80,5 +80,12 @@
 - (void)applyStyle:(RMImageViewStyle *)style {
   self.renderingMode = style.renderingMode;
   [self applyBaseStyle:style];
+  if (style.imageName) {
+    self.image = [UIImage imageNamed:style.imageName];
+  }
+  if (style.applyContentMode) {
+    self.contentMode = style.contentMode;
+  }
 }
+
 @end
