@@ -1,3 +1,4 @@
+
 //
 //  RMStylishImageView.h
 //  Pods
@@ -9,6 +10,16 @@
 #import <UIKit/UIKit.h>
 
 @interface RMStylishImageView : UIImageView
+
+- (instancetype)initWithFrame:(CGRect)frame
+                        style:(NSString *)style;
+
+- (instancetype)initWithImage:(UIImage *)image
+                        style:(NSString *)style;
+
+- (instancetype)initWithImage:(UIImage *)image
+             highlightedImage:(UIImage *)highlightedImage
+                        style:(NSString *)style;
 
 @property(nonatomic, strong) IBInspectable NSString *style;
 
