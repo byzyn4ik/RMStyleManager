@@ -30,6 +30,7 @@
 - (instancetype)initWithFrame:(CGRect)frame style:(NSString *)style {
   self = [self initWithFrame:frame];
   if (self) {
+    self.style = style;
     [self commonInit];
   }
   return self;
@@ -38,6 +39,7 @@
 - (instancetype)initWithImage:(UIImage *)image style:(NSString *)style {
   self = [self initWithImage:image];
   if (self) {
+    self.style = style;
     [self commonInit];
   }
 }
