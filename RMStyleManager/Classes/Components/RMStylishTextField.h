@@ -18,5 +18,7 @@
 @property(nonatomic, strong) IBInspectable NSString *leftImageName;
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName;
+- (void)setLeftImage:(UIImage *)image;
+- (void)commonInit;
 
 @end
