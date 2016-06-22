@@ -26,6 +26,7 @@
   self = [self initWithFrame:frame];
   if (self) {
     _style = styleName;
+    [self reloadStyle];
   }
   return self;
 }
