@@ -15,6 +15,10 @@
 
 @interface RMStylishRoundedButton () <RMStylishComponent>
 
+@property(nonatomic, strong) NSDictionary<NSString *, id> * textAttributes;
+@property(nonatomic, strong) NSDictionary<NSString *, id> * hightLightedTextAttributes;
+@property(nonatomic, strong) NSDictionary<NSString *, id> * disabledTextAttributes;
+
 @end
 
 @implementation RMStylishRoundedButton
@@ -82,11 +86,62 @@
     [self setTitleColor:style.highlightedBgColor
                forState:UIControlStateHighlighted];
   }
+
+  if (style.hightLightedTextAttributes) {
+     self.hightLightedTextAttributes = style.hightLightedTextAttributes;
+     [self reloadTitleForState:UIControlStateHighlighted];
+  }
+  if (style.disabledTextAttributes) {
+     self.disabledTextAttributes = style.disabledTextAttributes;
+     [self reloadTitleForState:UIControlStateDisabled];
+
+  }
+  if (style.textAttributes) {
+      self.textAttributes = style.textAttributes;
+      [self reloadTitleForState:UIControlStateNormal];
+      [self reloadTitleForState:UIControlStateFocused];
+      [self reloadTitleForState:UIControlStateSelected];
+      [self reloadTitleForState:UIControlStateApplication];
+      [self reloadTitleForState:UIControlStateReserved];
+      [self reloadTitleForState:UIControlStateHighlighted];
+      [self reloadTitleForState:UIControlStateDisabled];
+  }
 }
 
 - (void)setStyle:(NSString *)style {
   _style = style;
   [self reloadStyle];
+}
+
+- (void)reloadTitleForState:(UIControlState)state {
+   [self setTitle:[self titleForState:state] forState:state];
+}
+
+- (NSDictionary<NSString *,id> *)hightLightedTextAttributes {
+   if (_hightLightedTextAttributes) {
+      return _hightLightedTextAttributes;
+   }
+   return _textAttributes;
+}
+
+- (NSDictionary<NSString *,id> *)disabledTextAttributes {
+   if (_disabledTextAttributes) {
+      return _disabledTextAttributes;
+   }
+   return _textAttributes;
+}
+
+- (void)setTitle:(NSString *)title forState:(UIControlState)state {
+    if (state == UIControlStateDisabled && self.disabledTextAttributes && title) {
+         [self setAttributedTitle:[[NSAttributedString alloc] initWithString:title attributes:self.disabledTextAttributes] forState:state];
+    } else if (state == UIControlStateHighlighted && self.hightLightedTextAttributes && title) {
+          [self setAttributedTitle:[[NSAttributedString alloc] initWithString:title attributes:self.hightLightedTextAttributes] forState:state];
+
+    } else if (self.textAttributes && title) {
+          [self setAttributedTitle:[[NSAttributedString alloc] initWithString:title attributes:self.textAttributes] forState:state];
+    } else {
+       [super setTitle:title forState:state];
+    }
 }
 
 /*

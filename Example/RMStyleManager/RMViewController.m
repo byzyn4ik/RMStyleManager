@@ -30,6 +30,9 @@
                         action:@selector(reloadAllStyles)
               forControlEvents:UIControlEventTouchUpInside];
   [self.secondButton setTitle:@"Change style" forState:UIControlStateNormal];
+   [self.secondButton setTitle:@"Change style" forState:UIControlStateDisabled];
+   [self.secondButton setTitle:@"Change style" forState:UIControlStateHighlighted];
+
   NSLog(@"%@", [RMStyleManager styleForKey:@"imageViewStyle"]);
     
   // Do any additional setup after loading the view, typically from a nib.

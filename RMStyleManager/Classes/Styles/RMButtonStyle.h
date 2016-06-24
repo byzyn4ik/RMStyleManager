@@ -16,5 +16,8 @@
 @property(nonatomic) UIColor *highlightedTextColor;
 @property(nonatomic, strong) UIColor *disabledBgColor;
 @property(nonatomic, strong) UIColor *disabledTextColor;
+@property(nonatomic, strong) NSDictionary<NSString *, id> * textAttributes;
+@property(nonatomic, strong) NSDictionary<NSString *, id> * hightLightedTextAttributes;
+@property(nonatomic, strong) NSDictionary<NSString *, id> * disabledTextAttributes;
 
 @end

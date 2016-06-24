@@ -15,6 +15,8 @@
 
 @interface RMStylishLabel () <RMStylishComponent>
 
+@property(nonatomic, strong) NSDictionary<NSString *, id> * textAttributes;
+
 @end
 
 @implementation RMStylishLabel
@@ -82,6 +84,11 @@
   if (style.numberOfLines) {
     self.numberOfLines = style.numberOfLines;
   }
+  if (style.textAttributes) {
+    self.textAttributes = style.textAttributes;
+    [self setText:self.text];
+  }
+
 }
 
 - (void)setStyle:(NSString *)style {
@@ -89,4 +96,13 @@
   [self reloadStyle];
 }
 
+
+- (void)setText:(NSString *)text {
+   if (self.textAttributes && text && text.length) {
+      NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:text attributes:self.textAttributes];
+      [self setAttributedText:attributedString];
+   } else {
+      [super setText:text];
+   }
+}
 @end

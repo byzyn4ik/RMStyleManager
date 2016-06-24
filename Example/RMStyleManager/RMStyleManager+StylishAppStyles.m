@@ -45,6 +45,9 @@ static BOOL isStyleEnabledNext;
   style.disabledBgColor = [UIColor whiteColor];
   style.disabledTextColor = [UIColor purpleColor];
   style.highlightedBgColor = [UIColor yellowColor];
+  style.textAttributes = @{NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle)};
+  style.disabledTextAttributes = @{NSUnderlineStyleAttributeName: @(NSUnderlineStyleNone)};
+  style.hightLightedTextAttributes = @{NSUnderlineStyleAttributeName: @(NSUnderlineStyleDouble)};
   style.font = [UIFont systemFontOfSize:23.f weight:UIFontWeightBold];
   return style;
 }
@@ -69,6 +72,18 @@ static BOOL isStyleEnabledNext;
 
   return style;
 }
+
++ (RMLabelStyle *)underlinedLabelStyle {
+   RMLabelStyle *style = [[RMLabelStyle alloc] init];
+   style.textColor = [UIColor redColor];
+   style.font = [UIFont fontWithName:@"Helvetica" size:20.f];
+   style.textAttributes = @{NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle)};
+   style.numberOfLines = 0;
+   style.textAlignment = NSTextAlignmentCenter;
+
+   return style;
+}
+
 
 #pragma mark - TextField
 

@@ -6,8 +6,8 @@
 //  Copyright © 2016 Maks Petrovsky. All rights reserved.
 //
 
-#import "RMBaseStyle.h"
-#import "UIView+ApplyBaseStyle.h"
+@class RMBaseStyle;
+
 #import <Foundation/Foundation.h>
 
 @protocol RMStylishComponent <NSObject>
@@ -15,5 +15,6 @@
 - (void)setStyle:(NSString *)style;
 - (NSString *)style;
 - (void)applyStyle:(RMBaseStyle *)style;
+- (void)applyBaseStyle:(RMBaseStyle *)style;
 
 @end
