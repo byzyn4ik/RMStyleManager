@@ -1,4 +1,4 @@
-//
+///Users/petrovsky/RMStyleManager/RMStyleManager/Classes
 //  RMStyleManager.h
 //  PocketGuard
 //
@@ -13,6 +13,7 @@
 #import "RMImageViewStyle.h"
 #import "RMLabelStyle.h"
 #import "RMNavigationBarStyle.h"
+#import "RMPageControlStyle.h"
 #import "RMSwitchStyle.h"
 #import "RMTextFieldStyle.h"
 #import "RMViewStyle.h"

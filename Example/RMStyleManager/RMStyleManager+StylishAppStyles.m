@@ -141,4 +141,16 @@ static BOOL isStyleEnabledNext;
   style.backgroundColor = [UIColor greenColor];
   return style;
 }
+
+#pragma mark - PageControls Style
+
++ (RMPageControlStyle *)pageControlStyle {
+   RMPageControlStyle *style = [RMPageControlStyle new];
+   style.backgroundColor = [UIColor clearColor];
+   style.pageIndicatorTintColor = [UIColor redColor];
+   style.currentPageIndicatorTintColor = [UIColor orangeColor];
+   return style;
+}
+
+
 @end

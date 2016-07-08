@@ -78,6 +78,12 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="style" value="underlinedLabelStyle"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="279-1l-ClI" customClass="RMStylishPageControl">
+                                <rect key="frame" x="65" y="211" width="171" height="37"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="pageControlStyle"/>
+                                </userDefinedRuntimeAttributes>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <userDefinedRuntimeAttributes>
