@@ -11,7 +11,11 @@
 @implementation UIView (ApplyBaseStyle)
 
 - (void)applyBaseStyle:(RMBaseStyle *)style {
-  if (style.cornerRadius) {
+  if (style.halfSizeCornereRadius) {
+     self.layer.cornerRadius = MIN(self.frame.size.width,self.frame.size.height);
+     self.layer.masksToBounds = YES;
+
+  } else if (style.cornerRadius) {
     self.layer.cornerRadius = style.cornerRadius;
     self.layer.masksToBounds = YES;
   }

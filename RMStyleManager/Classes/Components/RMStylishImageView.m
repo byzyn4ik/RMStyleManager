@@ -42,6 +42,7 @@
     self.style = style;
     [self commonInit];
   }
+  return self;
 }
 
 - (instancetype)initWithImage:(UIImage *)image
@@ -52,6 +53,7 @@
   if (self) {
     [self commonInit];
   }
+  return self;
 }
 
 - (void)commonInit {
@@ -83,7 +85,20 @@
   self.renderingMode = style.renderingMode;
   [self applyBaseStyle:style];
   if (style.imageName) {
+#if !TARGET_INTERFACE_BUILDER
     self.image = [UIImage imageNamed:style.imageName];
+#else
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    UIImage *image = [UIImage imageNamed:style.imageName
+                                inBundle:bundle
+           compatibleWithTraitCollection:self.traitCollection];
+    self.image = image;
+#endif
+
+  } else {
+#if TARGET_INTERFACE_BUILDER
+    self.image = self.image;
+#endif
   }
   if (style.applyContentMode) {
     self.contentMode = style.contentMode;

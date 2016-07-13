@@ -11,6 +11,7 @@
 @interface RMBaseStyle : NSObject
 
 @property(nonatomic) BOOL dontMaskToBounds;
+@property(nonatomic) BOOL halfSizeCornereRadius;
 @property(nonatomic, strong) UIColor *backgroundColor;
 @property(nonatomic, assign) CGFloat borderWidth;
 @property(nonatomic, assign) CGFloat cornerRadius;
