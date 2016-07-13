@@ -9,6 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface RMStylishImageView : UIImageView
 
 - (instancetype)initWithFrame:(CGRect)frame

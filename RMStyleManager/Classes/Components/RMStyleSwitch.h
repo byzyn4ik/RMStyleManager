@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface RMStyleSwitch : UISwitch
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName;

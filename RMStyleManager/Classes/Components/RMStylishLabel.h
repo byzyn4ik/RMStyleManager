@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface RMStylishLabel : UILabel
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName;

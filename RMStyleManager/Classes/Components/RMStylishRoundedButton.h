@@ -8,7 +8,8 @@
 
 #import "BaseRoundedButton.h"
 
-@interface RMStylishRoundedButton : BaseRoundedButton
+IB_DESIGNABLE
+@interface  RMStylishRoundedButton : BaseRoundedButton
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName;
 

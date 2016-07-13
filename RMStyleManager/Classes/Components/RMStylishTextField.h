@@ -10,6 +10,7 @@
 
 #define kPadding 20.0f
 
+IB_DESIGNABLE
 @interface RMStylishTextField : UITextField
 
 @property(nonatomic, strong)

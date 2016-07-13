@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface RMStylishView : UIView
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName;
