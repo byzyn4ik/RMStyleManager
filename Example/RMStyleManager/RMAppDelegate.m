@@ -7,6 +7,7 @@
 //
 
 #import "RMAppDelegate.h"
+#import <RMStyleManager/RMColorsManager.h>
 
 @interface RMAppDelegate ()
 
