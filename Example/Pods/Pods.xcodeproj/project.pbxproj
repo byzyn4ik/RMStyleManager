@@ -857,6 +857,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8E21721D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */,
+				4D8E21691D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
