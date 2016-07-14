@@ -18,5 +18,13 @@
 		<key>baseColor</key>
 		<string>mainBackgroundColor</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>mainOrangeColor</string>
+		<key>alpha</key>
+		<integer>1</integer>
+		<key>hexCode</key>
+		<string>ffba00</string>
+	</dict>
 </array>
 </plist>

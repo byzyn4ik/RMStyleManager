@@ -1,0 +1,1 @@
+./MakeColorsHeaderFileHelper RMStyleManager/RMStyleManager_Colors.plist RMStyleManager/UIColor+TestColors.h

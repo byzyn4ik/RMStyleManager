@@ -8,6 +8,7 @@
 
 #import "RMStyleManager+StylishAppStyles.h"
 #import "RMViewStyle.h"
+#import "UIColor+TestColors.h"
 
 @implementation RMStyleManager (StylishAppStyles)
 
@@ -31,7 +32,7 @@ static BOOL isStyleEnabledNext;
   style.backgroundColor = [UIColor redColor];
   style.borderWidth = 2.f;
   style.textColor = [UIColor orangeColor];
-  style.disabledBgColor = [UIColor lightGrayColor];
+  style.disabledBgColor = [UIColor mainBackgroundColor];
   style.disabledTextColor = [UIColor whiteColor];
   style.highlightedBgColor = [UIColor yellowColor];
   return style;
@@ -138,7 +139,7 @@ static BOOL isStyleEnabledNext;
 
 + (RMViewStyle *)bgViewStyle {
   RMViewStyle *style = [RMViewStyle new];
-  style.backgroundColor = [UIColor greenColor];
+  style.backgroundColor = [UIColor mainBackgroundColor];
   return style;
 }
 
