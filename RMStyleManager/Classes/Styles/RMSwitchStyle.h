@@ -13,7 +13,6 @@
 
 @property(nonatomic, strong) UIColor *onTintColor;
 @property(nonatomic, strong) UIColor *thumbTint;
-@property(nonatomic, strong) UIColor *tintColor;
 @property(nonatomic) BOOL cornerHalfSize;
 
 @end

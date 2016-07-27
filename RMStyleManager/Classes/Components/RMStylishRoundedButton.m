@@ -12,6 +12,7 @@
 #import "RMStylishRoundedButton.h"
 #import "UIImage+ImageWithColor.h"
 #import "UIView+RMStyleReloader.h"
+#import "RMStylishComponent.h"
 
 @interface RMStylishRoundedButton () <RMStylishComponent>
 

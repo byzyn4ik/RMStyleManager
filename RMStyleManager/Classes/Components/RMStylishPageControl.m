@@ -10,6 +10,7 @@
 #import "RMStylishPageControl.h"
 #import "UIView+ApplyBaseStyle.h"
 #import "UIView+RMStyleReloader.h"
+#import "RMStylishComponent.h"
 
 @interface RMStylishPageControl ()  <RMStylishComponent>
 

@@ -7,7 +7,6 @@
 //
 
 #import "RMReloadStyleSubscriber.h"
-#import "RMStylishComponent.h"
 #import <UIKit/UIKit.h>
 
 @interface UIView (RMStyleReloader)

@@ -8,6 +8,7 @@
 
 #import "RMStyleManager.h"
 #import "UIView+RMStyleReloader.h"
+#import "RMStylishComponent.h"
 
 @implementation UIView (RMStyleReloader)
 

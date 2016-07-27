@@ -9,6 +9,7 @@
 #import "RMStyleManager.h"
 #import "RMStyleSwitch.h"
 #import "UIView+RMStyleReloader.h"
+#import "RMStylishComponent.h"
 
 @interface RMStyleSwitch () <RMStylishComponent>
 

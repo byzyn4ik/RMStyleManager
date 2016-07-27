@@ -52,6 +52,11 @@
   return color;
 }
 
+- (void)setBorderColor:(UIColor *)borderColor {
+   _borderColor = borderColor;
+   self.layer.borderColor = borderColor.CGColor;
+}
+
 - (UIColor *)myHighlitedColor {
   return [[self myBorderColor] darkenedColorByPercent:0.15f];
 }

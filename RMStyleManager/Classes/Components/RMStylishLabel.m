@@ -12,6 +12,7 @@
 #import "UILabel+TextKerning.h"
 #import "UIView+RMStyleReloader.h"
 #import <objc/runtime.h>
+#import "RMStylishComponent.h"
 
 @interface RMStylishLabel () <RMStylishComponent>
 

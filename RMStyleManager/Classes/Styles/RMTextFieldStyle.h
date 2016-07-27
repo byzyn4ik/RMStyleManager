@@ -19,12 +19,8 @@
 @property(nonatomic, assign) BOOL clearsOnBeginEditing;
 @property(nonatomic, assign) UITextBorderStyle borderStyle;
 @property(nonatomic, assign) UITextFieldViewMode clearButtonMode;
-@property(nonatomic, strong) UIColor *backgroundColor;
 @property(nonatomic, assign) BOOL secureTextEntry;
 @property(nonatomic, assign) UIReturnKeyType returnKeyType;
-@property(nonatomic, assign) CGFloat cornerRadius;
-@property(nonatomic, assign) CGFloat borderWidth;
-@property(nonatomic, strong) UIColor *borderColor;
 @property(nonatomic, strong) UIImage *leftImage;
 
 @end
