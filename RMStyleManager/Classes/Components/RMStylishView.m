@@ -48,6 +48,7 @@
 }
 
 - (void)applyStyle:(RMViewStyle *)style {
+   [self applyBaseStyle:style];
   if (style.backgroundColor) {
     self.backgroundColor = style.backgroundColor;
   }
