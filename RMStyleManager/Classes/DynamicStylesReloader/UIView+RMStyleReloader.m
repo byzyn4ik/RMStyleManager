@@ -13,20 +13,27 @@
 @implementation UIView (RMStyleReloader)
 
 - (void)subscribeSelfForStyle {
-  [RMReloadStyleSubscriber
-      subscribeForStyleReload:(id<RMStyleReloadProtocol>)self];
+   if ([self conformsToProtocol:@protocol(RMStylishComponent)]) {
+      id<RMStylishComponent> self_ = (id<RMStylishComponent>)self;
+      [RMReloadStyleSubscriber
+       subscribeForStyleReload:(id<RMStyleReloadProtocol>)self style:self_.style];
+   }
 }
 
 - (void)unsubscribeSelfForStyle {
-  [RMReloadStyleSubscriber
-      unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)self];
+   if ([self conformsToProtocol:@protocol(RMStylishComponent)]) {
+      id<RMStylishComponent> self_ = (id<RMStylishComponent>)self;
+      [RMReloadStyleSubscriber
+       unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)self style:self_.style];
+   }
+
 }
 
 - (void)reloadStyle {
   if ([self conformsToProtocol:@protocol(RMStylishComponent)]) {
     id<RMStylishComponent> self_ = (id<RMStylishComponent>)self;
     if (self_.style) {
-      [self_ applyStyle:[RMStyleManager styleForKey:self_.style]];
+      [self_ applyStyle:[[RMStyleManager sharedStyleManager] styleForKey:self_.style]];
     }
   }
 }

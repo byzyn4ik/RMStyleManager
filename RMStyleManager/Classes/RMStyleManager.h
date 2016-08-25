@@ -1,4 +1,4 @@
-///Users/petrovsky/RMStyleManager/RMStyleManager/Classes
+/// Users/petrovsky/RMStyleManager/RMStyleManager/Classes
 //  RMStyleManager.h
 //  PocketGuard
 //
@@ -20,7 +20,9 @@
 
 @interface RMStyleManager : NSObject
 
-+ (RMBaseStyle *)styleForKey:(NSString *)key;
-+ (void)reloadAllStyles;
++ (instancetype)sharedStyleManager;
+- (void)setStyle:(RMBaseStyle *)style forKey:(NSString *)key;
+- (RMBaseStyle *)styleForKey:(NSString *)key;
+- (void)reloadAllStyles;
 
 @end

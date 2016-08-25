@@ -10,17 +10,31 @@
 
 @implementation RMReloadStyleSubscriber
 
-+ (void)subscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber {
-  [[NSNotificationCenter defaultCenter] addObserver:subscriber
-                                           selector:@selector(reloadStyle)
-                                               name:reloadStylesNotification
-                                             object:nil];
++ (void)subscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber
+                          style:(NSString *)style {
+   [[NSNotificationCenter defaultCenter] addObserver:subscriber
+                                            selector:@selector(reloadStyle)
+                                                name:reloadAllStylesNotification
+                                              object:nil];
+   if (style) {
+      [[NSNotificationCenter defaultCenter] addObserver:subscriber
+                                               selector:@selector(reloadStyle)
+                                                   name:reloadStyleNotification
+                                                 object:style];
+   }
 }
 
-+ (void)unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber {
-  [[NSNotificationCenter defaultCenter] removeObserver:subscriber
-                                                  name:reloadStylesNotification
-                                                object:nil];
++ (void)unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber
+                            style:(NSString *)style {
+   [[NSNotificationCenter defaultCenter]
+    removeObserver:subscriber
+    name:reloadAllStylesNotification
+    object:nil];
+   if (style) {
+      [[NSNotificationCenter defaultCenter] removeObserver:subscriber
+                                                      name:reloadStyleNotification
+                                                    object:style];
+   }
 }
 
 @end

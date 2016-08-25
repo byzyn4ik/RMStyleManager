@@ -11,7 +11,9 @@
 
 @interface RMReloadStyleSubscriber : NSObject
 
-+ (void)subscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber;
-+ (void)unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber;
++ (void)subscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber
+                          style:(NSString *)style;
++ (void)unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber
+                            style:(NSString *)style;
 
 @end
