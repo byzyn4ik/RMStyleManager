@@ -40,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		2B287C9257EFA4EBFE251003 /* Pods_RMStyleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMStyleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D8E10DC1D37CE420022F123 /* UIColor+TestColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TestColors.h"; sourceTree = "<group>"; };
 		4D8E21621D37A9DB002AF8D8 /* RMStyleManager_Colors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RMStyleManager_Colors.plist; sourceTree = "<group>"; };
 		4DAC20D01CC61EFD00432F4E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DAC20D21CC61F8300432F4E /* RMStyleManager+StylishAppStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMStyleManager+StylishAppStyles.h"; sourceTree = "<group>"; };
@@ -134,7 +133,6 @@
 		6003F593195388D20070C39A /* Example for RMStyleManager */ = {
 			isa = PBXGroup;
 			children = (
-				4D8E10DC1D37CE420022F123 /* UIColor+TestColors.h */,
 				6003F59C195388D20070C39A /* RMAppDelegate.h */,
 				6003F59D195388D20070C39A /* RMAppDelegate.m */,
 				4DAC20D01CC61EFD00432F4E /* LaunchScreen.storyboard */,
@@ -214,7 +212,6 @@
 				6003F588195388D20070C39A /* Resources */,
 				6D3750CE7DD84827F8215434 /* Embed Pods Frameworks */,
 				94D33AA6577BC32464A39D3E /* Copy Pods Resources */,
-				4D8E10DD1D37CE750022F123 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -316,22 +313,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
-		};
-		4D8E10DD1D37CE750022F123 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"",
-				"",
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/help.sh\"";
 		};
 		6D3750CE7DD84827F8215434 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
