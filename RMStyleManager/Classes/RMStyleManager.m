@@ -7,53 +7,11 @@
 //
 
 #import "RMStyleManager.h"
-#import "RMColorsManager.h"
 #import <objc/runtime.h>
+
 #import "RMStyleReloadProtocol.h"
-@interface UIColor (Colors)
-
-+ (UIColor*)mainBackgroundColor;
-
-@end
-
-
-@implementation UIColor (Colors)
-
-@end
-@interface RMStyleManager ()
-
-@end
 
 @implementation RMStyleManager
-
-
-+ (void)load {
-   [self sharedManager];
-}
-
-+ (instancetype)sharedManager {
-    static RMStyleManager *_sharedManager= nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        _sharedManager = [self new];
-    });
-   return _sharedManager;
-}
-
-- (instancetype)init {
-   self = [super init];
-   if (self) {
-      [RMColorsManager reloadColors];
-      UIColor *color =[UIColor mainBackgroundColor];
-      NSLog(@"%@",color);
-   }
-   return self;
-}
-
-+ (NSString*)colorWithName:(NSString*)colorName {
-   return [RMColorsManager colorWithName:colorName];
-}
-
 
 + (RMBaseStyle *)styleForKey:(NSString *)key {
   SEL selector = NSSelectorFromString(key);

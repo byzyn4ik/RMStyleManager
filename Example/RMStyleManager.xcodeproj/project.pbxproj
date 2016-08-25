@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D8E216B1D37B124002AF8D8 /* RMStyleManager_Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E21621D37A9DB002AF8D8 /* RMStyleManager_Colors.plist */; };
 		4DAC20D11CC61EFD00432F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC20D01CC61EFD00432F4E /* LaunchScreen.storyboard */; };
 		4DAC20D41CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC20D31CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m */; };
 		4DDDAE8C1CDBAA9E00B0827C /* At-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDDAE8B1CDBAA9E00B0827C /* At-icon.png */; };
@@ -40,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		2B287C9257EFA4EBFE251003 /* Pods_RMStyleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMStyleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D8E21621D37A9DB002AF8D8 /* RMStyleManager_Colors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RMStyleManager_Colors.plist; sourceTree = "<group>"; };
 		4DAC20D01CC61EFD00432F4E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DAC20D21CC61F8300432F4E /* RMStyleManager+StylishAppStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMStyleManager+StylishAppStyles.h"; sourceTree = "<group>"; };
 		4DAC20D31CC61F8300432F4E /* RMStyleManager+StylishAppStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RMStyleManager+StylishAppStyles.m"; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D8E21621D37A9DB002AF8D8 /* RMStyleManager_Colors.plist */,
 				6003F595195388D20070C39A /* RMStyleManager-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -283,7 +280,6 @@
 				4DDDAE8C1CDBAA9E00B0827C /* At-icon.png in Resources */,
 				4DAC20D11CC61EFD00432F4E /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				4D8E216B1D37B124002AF8D8 /* RMStyleManager_Colors.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

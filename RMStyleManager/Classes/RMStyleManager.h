@@ -20,7 +20,6 @@
 
 @interface RMStyleManager : NSObject
 
-+ (NSString*)colorWithName:(NSString*)colorName;
 + (RMBaseStyle *)styleForKey:(NSString *)key;
 + (void)reloadAllStyles;
 

@@ -30,24 +30,6 @@
 		4D228A7A1CE4A3DC00B6533B /* RMViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A781CE4A3DC00B6533B /* RMViewStyle.m */; };
 		4D228A7D1CE4A4D800B6533B /* RMStylishView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A7B1CE4A4D800B6533B /* RMStylishView.h */; };
 		4D228A7E1CE4A4D800B6533B /* RMStylishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A7C1CE4A4D800B6533B /* RMStylishView.m */; };
-		4D8E21591D37A939002AF8D8 /* RMColorsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E21571D37A939002AF8D8 /* RMColorsManager.h */; };
-		4D8E215A1D37A939002AF8D8 /* RMColorsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21581D37A939002AF8D8 /* RMColorsManager.m */; };
-		4D8E215D1D37A949002AF8D8 /* RMFontsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E215B1D37A949002AF8D8 /* RMFontsManager.h */; };
-		4D8E215E1D37A949002AF8D8 /* RMFontsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E215B1D37A949002AF8D8 /* RMFontsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D8E215F1D37A949002AF8D8 /* RMFontsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E215C1D37A949002AF8D8 /* RMFontsManager.m */; };
-		4D8E21601D37A949002AF8D8 /* RMFontsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E215C1D37A949002AF8D8 /* RMFontsManager.m */; };
-		4D8E21611D37A969002AF8D8 /* RMColorsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21581D37A939002AF8D8 /* RMColorsManager.m */; };
-		4D8E21651D37AAC5002AF8D8 /* UIColor+ColorLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E21631D37AAC5002AF8D8 /* UIColor+ColorLoader.h */; };
-		4D8E21661D37AAC5002AF8D8 /* UIColor+ColorLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E21631D37AAC5002AF8D8 /* UIColor+ColorLoader.h */; };
-		4D8E21671D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */; };
-		4D8E21681D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */; };
-		4D8E21691D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */; };
-		4D8E216A1D37B0AD002AF8D8 /* RMColorsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E21571D37A939002AF8D8 /* RMColorsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D8E216E1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E216C1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h */; };
-		4D8E216F1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E216C1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h */; };
-		4D8E21701D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */; };
-		4D8E21711D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */; };
-		4D8E21721D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */; };
 		4DDE3C721CE4AB32005E0060 /* RMStylishView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A7B1CE4A4D800B6533B /* RMStylishView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DDE3C731CE4AB37005E0060 /* RMStylishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A7C1CE4A4D800B6533B /* RMStylishView.m */; };
 		4DDE3C751CE4AB41005E0060 /* RMViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A781CE4A3DC00B6533B /* RMViewStyle.m */; };
@@ -176,14 +158,6 @@
 		4D228A781CE4A3DC00B6533B /* RMViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMViewStyle.m; sourceTree = "<group>"; };
 		4D228A7B1CE4A4D800B6533B /* RMStylishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStylishView.h; sourceTree = "<group>"; };
 		4D228A7C1CE4A4D800B6533B /* RMStylishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStylishView.m; sourceTree = "<group>"; };
-		4D8E21571D37A939002AF8D8 /* RMColorsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMColorsManager.h; sourceTree = "<group>"; };
-		4D8E21581D37A939002AF8D8 /* RMColorsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMColorsManager.m; sourceTree = "<group>"; };
-		4D8E215B1D37A949002AF8D8 /* RMFontsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFontsManager.h; sourceTree = "<group>"; };
-		4D8E215C1D37A949002AF8D8 /* RMFontsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFontsManager.m; sourceTree = "<group>"; };
-		4D8E21631D37AAC5002AF8D8 /* UIColor+ColorLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorLoader.h"; sourceTree = "<group>"; };
-		4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorLoader.m"; sourceTree = "<group>"; };
-		4D8E216C1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RMStyleManager.h"; sourceTree = "<group>"; };
-		4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RMStyleManager.m"; sourceTree = "<group>"; };
 		4DDE3C781CE4AE48005E0060 /* UIView+ApplyBaseStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ApplyBaseStyle.h"; sourceTree = "<group>"; };
 		4DDE3C791CE4AE48005E0060 /* UIView+ApplyBaseStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ApplyBaseStyle.m"; sourceTree = "<group>"; };
 		4DE4D9AE1D2FF693004039E1 /* RMStylishPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStylishPageControl.h; sourceTree = "<group>"; };
@@ -434,10 +408,6 @@
 		4DDE3C771CE4AE48005E0060 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				4D8E21631D37AAC5002AF8D8 /* UIColor+ColorLoader.h */,
-				4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */,
-				4D8E216C1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h */,
-				4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */,
 				4DDE3C781CE4AE48005E0060 /* UIView+ApplyBaseStyle.h */,
 				4DDE3C791CE4AE48005E0060 /* UIView+ApplyBaseStyle.m */,
 			);
@@ -507,13 +477,9 @@
 		9575B06776F54A9CE0CB2587CD56F625 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4D8E215B1D37A949002AF8D8 /* RMFontsManager.h */,
-				4D8E215C1D37A949002AF8D8 /* RMFontsManager.m */,
-				4D8E21571D37A939002AF8D8 /* RMColorsManager.h */,
-				4D8E21581D37A939002AF8D8 /* RMColorsManager.m */,
+				4DDE3C771CE4AE48005E0060 /* Categories */,
 				31A64A847BACFF2D18060DA2A32DF2FC /* RMStyleManager.h */,
 				E04BD6BF9A9A2F5E30051F53262D150A /* RMStyleManager.m */,
-				4DDE3C771CE4AE48005E0060 /* Categories */,
 				4CDD4CEBACBED1981D92638F3656FBCD /* Components */,
 				9279768BD95CDE24F9AA8BF673AF1F93 /* Dependency */,
 				6927C55F350CCF63F6F1C83D40C94E5F /* DynamicStylesReloader */,
@@ -585,14 +551,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D228A791CE4A3DC00B6533B /* RMViewStyle.h in Headers */,
-				4D8E216E1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h in Headers */,
-				4D8E21651D37AAC5002AF8D8 /* UIColor+ColorLoader.h in Headers */,
 				4DE4D9B41D2FF6D2004039E1 /* RMPageControlStyle.h in Headers */,
 				4DE4D9B01D2FF693004039E1 /* RMStylishPageControl.h in Headers */,
-				4D8E215D1D37A949002AF8D8 /* RMFontsManager.h in Headers */,
 				4D228A7D1CE4A4D800B6533B /* RMStylishView.h in Headers */,
 				B54E987D2C0F76DA62FAC3348FD67778 /* Pods-RMStyleManager_Example-umbrella.h in Headers */,
-				4D8E21591D37A939002AF8D8 /* RMColorsManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,15 +569,12 @@
 				15929743067F2691FC63FA3A3A5117D6 /* RMImageViewStyle.h in Headers */,
 				6BC9293995A25801A5B0C48B6581CCF6 /* RMLabelStyle.h in Headers */,
 				ABAEE4CE1D9B12F45D8357B389A371A3 /* RMNavigationBar.h in Headers */,
-				4D8E216F1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h in Headers */,
 				65A6E20A0A72319939BCE387AB755100 /* RMNavigationBarStyle.h in Headers */,
 				D8A41C1F2DBCAEC4A8803B11FB97A5BF /* RMReloadStyleSubscriber.h in Headers */,
 				928BA649EE46B36F4FA1DE8F4F085516 /* RMStyleManager-umbrella.h in Headers */,
 				4C5C00AB7712EBB61454719BCD997094 /* RMStyleManager.h in Headers */,
 				4DDE3C7A1CE4AE48005E0060 /* UIView+ApplyBaseStyle.h in Headers */,
-				4D8E21661D37AAC5002AF8D8 /* UIColor+ColorLoader.h in Headers */,
 				61AEEA442BDFBA787D3498E9D828AB4E /* RMStyleReloadProtocol.h in Headers */,
-				4D8E215E1D37A949002AF8D8 /* RMFontsManager.h in Headers */,
 				D778FF37320F3190B5D41E4863A0EB0C /* RMStyleSwitch.h in Headers */,
 				B7B310C4A5177733447A4DB663CACD7F /* RMStylishComponent.h in Headers */,
 				45C583E01050373441638E3B737D351B /* RMStylishImageView.h in Headers */,
@@ -625,7 +584,6 @@
 				F53A86F740559DE18000FB379F412DB2 /* RMSwitchStyle.h in Headers */,
 				4DE4D9B61D30032C004039E1 /* RMStylishPageControl.h in Headers */,
 				F8138EB3698D6F6924AA17530DCE2BC9 /* RMTextFieldStyle.h in Headers */,
-				4D8E216A1D37B0AD002AF8D8 /* RMColorsManager.h in Headers */,
 				4DE4D9B71D300332004039E1 /* RMPageControlStyle.h in Headers */,
 				79284D57B2B06A363AAFCF34DB80613F /* UILabel+TextKerning.h in Headers */,
 				4DDE3C721CE4AB32005E0060 /* RMStylishView.h in Headers */,
@@ -799,9 +757,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8E21601D37A949002AF8D8 /* RMFontsManager.m in Sources */,
-				4D8E21611D37A969002AF8D8 /* RMColorsManager.m in Sources */,
-				4D8E21711D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */,
 				5BC3009B840D40AB6ED0A4584E032B13 /* BaseRoundedButton.m in Sources */,
 				31A756557A971E35A6721BE5B990DABD /* RMBaseStyle.m in Sources */,
 				ED38EF9E95E3EC2008DCBD6E2810EAAA /* RMButtonStyle.m in Sources */,
@@ -820,7 +775,6 @@
 				DAFCAC80653F4195CF0898A3E46B6BDB /* RMSwitchStyle.m in Sources */,
 				4DDE3C7B1CE4AE48005E0060 /* UIView+ApplyBaseStyle.m in Sources */,
 				1E9AC63B46C1CC7E0C86A1EB96B7BC04 /* RMTextFieldStyle.m in Sources */,
-				4D8E21681D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */,
 				4DDE3C731CE4AB37005E0060 /* RMStylishView.m in Sources */,
 				119A18A6FC5C1D5B221A741C013CE651 /* UILabel+TextKerning.m in Sources */,
 				4DDE3C751CE4AB41005E0060 /* RMViewStyle.m in Sources */,
@@ -836,12 +790,8 @@
 			files = (
 				2A3C1548D6D21092D988998D9BD9B08C /* Pods-RMStyleManager_Example-dummy.m in Sources */,
 				4DE4D9B51D2FF6D2004039E1 /* RMPageControlStyle.m in Sources */,
-				4D8E21701D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */,
-				4D8E215A1D37A939002AF8D8 /* RMColorsManager.m in Sources */,
 				4D228A7E1CE4A4D800B6533B /* RMStylishView.m in Sources */,
-				4D8E215F1D37A949002AF8D8 /* RMFontsManager.m in Sources */,
 				4DE4D9B11D2FF693004039E1 /* RMStylishPageControl.m in Sources */,
-				4D8E21671D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */,
 				4D228A7A1CE4A3DC00B6533B /* RMViewStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -859,8 +809,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8E21721D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */,
-				4D8E21691D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
