@@ -41,11 +41,13 @@
 		4D8E21661D37AAC5002AF8D8 /* UIColor+ColorLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E21631D37AAC5002AF8D8 /* UIColor+ColorLoader.h */; };
 		4D8E21671D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */; };
 		4D8E21681D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */; };
+		4D8E21691D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E21641D37AAC5002AF8D8 /* UIColor+ColorLoader.m */; };
 		4D8E216A1D37B0AD002AF8D8 /* RMColorsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E21571D37A939002AF8D8 /* RMColorsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8E216E1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E216C1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h */; };
 		4D8E216F1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8E216C1D37B4C2002AF8D8 /* UIColor+RMStyleManager.h */; };
 		4D8E21701D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */; };
 		4D8E21711D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */; };
+		4D8E21721D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E216D1D37B4C2002AF8D8 /* UIColor+RMStyleManager.m */; };
 		4DDE3C721CE4AB32005E0060 /* RMStylishView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D228A7B1CE4A4D800B6533B /* RMStylishView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DDE3C731CE4AB37005E0060 /* RMStylishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A7C1CE4A4D800B6533B /* RMStylishView.m */; };
 		4DDE3C751CE4AB41005E0060 /* RMViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D228A781CE4A3DC00B6533B /* RMViewStyle.m */; };
@@ -857,6 +859,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8E21721D37B4C2002AF8D8 /* UIColor+RMStyleManager.m in Sources */,
+				4D8E21691D37AAC5002AF8D8 /* UIColor+ColorLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
