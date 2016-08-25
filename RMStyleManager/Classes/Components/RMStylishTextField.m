@@ -11,7 +11,7 @@
 #import "RMStylishTextField.h"
 #import "RMTextFieldStyle.h"
 #import "UIView+RMStyleReloader.h"
-
+#import "RMStylishComponent.h"
 #import <objc/runtime.h>
 
 @interface RMStylishTextField () <RMStylishComponent>
