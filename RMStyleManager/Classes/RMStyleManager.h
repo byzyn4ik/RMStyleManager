@@ -23,6 +23,7 @@
 + (instancetype)sharedStyleManager;
 - (void)setStyle:(RMBaseStyle *)style forKey:(NSString *)key;
 - (RMBaseStyle *)styleForKey:(NSString *)key;
+- (void)reloadStyleForKey:(NSString*)key;
 - (void)reloadAllStyles;
 
 @end

@@ -32,15 +32,10 @@
    return self;
 }
 
-- (void)awakeFromNib {
-   [super awakeFromNib];
-   [self reloadStyle];
-}
-
 - (instancetype)initWithFrame:(CGRect)frame {
    self = [super initWithFrame:frame];
    if (self) {
-      [self subscribeSelfForStyle];
+      [self commonInit];
    }
    return self;
 }
@@ -48,13 +43,22 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
    self = [super initWithCoder:aDecoder];
    if (self) {
-      [self subscribeSelfForStyle];
+      [self commonInit];
    }
    return self;
 }
 
+- (void)commonInit {
+   [self subscribeSelfForStyle];
+}
+
 - (void)dealloc {
    [self unsubscribeSelfForStyle];
+}
+
+- (void)setStyle:(NSString *)style {
+   _style = style;
+   [self reloadStyle];
 }
 
 - (void)applyStyle:(RMLabelStyle *)style {
@@ -96,10 +100,7 @@
    }
 }
 
-- (void)setStyle:(NSString *)style {
-   _style = style;
-   [self reloadStyle];
-}
+
 
 - (void)setTextColor:(UIColor *)textColor {
    [super setTextColor:textColor];

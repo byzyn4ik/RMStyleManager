@@ -12,6 +12,7 @@ IB_DESIGNABLE
 @interface  RMStylishRoundedButton : BaseRoundedButton
 
 - (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName;
+- (void)commonInit;
 
 @property(nonatomic, strong) IBInspectable NSString *style;
 

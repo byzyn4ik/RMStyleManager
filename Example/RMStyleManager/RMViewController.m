@@ -10,11 +10,10 @@
 #import <RMStyleManager/RMStylishRoundedButton.h>
 
 #import "RMViewController.h"
-
 @interface RMViewController ()
 
 @property(weak, nonatomic) IBOutlet UIButton *myButton;
-@property(nonatomic, strong) UIButton *secondButton;
+@property(nonatomic, strong) RMStylishRoundedButton *secondButton;
 
 @end
 
@@ -26,8 +25,7 @@
       [[RMStylishRoundedButton alloc] initWithFrame:CGRectMake(10, 150, 200, 40)
                                            andStyle:@"randButtonStyle"];
   [self.view addSubview:_secondButton];
-  [self.secondButton addTarget:[RMStyleManager class]
-                        action:@selector(reloadAllStyles)
+   [self.secondButton addTarget:self                        action:@selector(reloadStyle)
               forControlEvents:UIControlEventTouchUpInside];
   [self.secondButton setTitle:@"Change style" forState:UIControlStateNormal];
   [self.secondButton setTitle:@"Change style" forState:UIControlStateDisabled];
@@ -39,6 +37,10 @@
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
   // Dispose of any resources that can be recreated.
+}
+
+- (void)reloadStyle {
+   [[RMStyleManager sharedStyleManager] reloadStyleForKey:self.secondButton.style];
 }
 
 - (IBAction)swithcValueCHanged:(UISwitch *)sender {

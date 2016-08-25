@@ -21,7 +21,6 @@
   self = [self initWithFrame:frame];
   if (self) {
     self.style = styleName;
-    [self reloadStyle];
   }
   return self;
 }
@@ -29,7 +28,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
   self = [super initWithFrame:frame];
   if (self) {
-    [self subscribeSelfForStyle];
+    [self commonInit];
   }
   return self;
 }
@@ -37,14 +36,22 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
   self = [super initWithCoder:aDecoder];
   if (self) {
-    [self subscribeSelfForStyle];
+    [self commonInit];
   }
   return self;
 }
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    [self reloadStyle];
+- (void)commonInit {
+   [self subscribeSelfForStyle];
+}
+
+- (void)dealloc {
+   [self unsubscribeSelfForStyle];
+}
+
+- (void)setStyle:(NSString *)style {
+   _style = style;
+   [self reloadStyle];
 }
 
 - (void)applyStyle:(RMViewStyle *)style {

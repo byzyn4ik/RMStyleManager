@@ -16,12 +16,10 @@
                                             selector:@selector(reloadStyle)
                                                 name:reloadAllStylesNotification
                                               object:nil];
-   if (style) {
-      [[NSNotificationCenter defaultCenter] addObserver:subscriber
-                                               selector:@selector(reloadStyle)
-                                                   name:reloadStyleNotification
-                                                 object:style];
-   }
+   [[NSNotificationCenter defaultCenter] addObserver:subscriber
+                                            selector:@selector(styleDidChanged:)
+                                                name:reloadStyleNotification
+                                              object:style];
 }
 
 + (void)unsubscribeForStyleReload:(id<RMStyleReloadProtocol>)subscriber
@@ -30,11 +28,9 @@
     removeObserver:subscriber
     name:reloadAllStylesNotification
     object:nil];
-   if (style) {
-      [[NSNotificationCenter defaultCenter] removeObserver:subscriber
-                                                      name:reloadStyleNotification
-                                                    object:style];
-   }
+   [[NSNotificationCenter defaultCenter] removeObserver:subscriber
+                                                   name:reloadStyleNotification
+                                                 object:style];
 }
 
 @end

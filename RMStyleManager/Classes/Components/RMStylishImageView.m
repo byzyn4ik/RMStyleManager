@@ -57,16 +57,19 @@
 }
 
 - (void)commonInit {
-  [self subscribeSelfForStyle];
-  [self reloadStyle];
+   [self subscribeSelfForStyle];
 }
+
+- (void)dealloc {
+   [self unsubscribeSelfForStyle];
+}
+
 - (void)setStyle:(NSString *)style {
-  _style = style;
-  [self reloadStyle];
+   _style = style;
+   [self reloadStyle];
 }
 
 - (void)awakeFromNib {
-  [self reloadStyle];
   [super awakeFromNib];
   UIImage *image = self.image;
   self.image = nil;

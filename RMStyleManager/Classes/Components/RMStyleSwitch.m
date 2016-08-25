@@ -26,27 +26,32 @@
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
-  self = [super initWithFrame:frame];
-  if (self) {
-    [self subscribeSelfForStyle];
-  }
-  return self;
+   self = [super initWithFrame:frame];
+   if (self) {
+      [self commonInit];
+   }
+   return self;
 }
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
-  self = [super initWithCoder:aDecoder];
-  if (self) {
-    [self subscribeSelfForStyle];
-  }
-  return self;
+   self = [super initWithCoder:aDecoder];
+   if (self) {
+      [self commonInit];
+   }
+   return self;
+}
+
+- (void)commonInit {
+   [self subscribeSelfForStyle];
 }
 
 - (void)dealloc {
-  [self unsubscribeSelfForStyle];
+   [self unsubscribeSelfForStyle];
 }
 
-- (void)awakeFromNib {
-  [super awakeFromNib];
+- (void)setStyle:(NSString *)style {
+   _style = style;
+   [self reloadStyle];
 }
 
 - (void)applyStyle:(RMSwitchStyle *)style {
@@ -66,11 +71,6 @@
   if (style.cornerHalfSize) {
     self.layer.cornerRadius = self.frame.size.height / 2.f;
   }
-}
-
-- (void)setStyle:(NSString *)style {
-  _style = style;
-  [self reloadStyle];
 }
 
 @end

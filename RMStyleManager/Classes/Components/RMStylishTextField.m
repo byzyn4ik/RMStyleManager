@@ -32,19 +32,24 @@
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
-  self = [super initWithFrame:frame];
-  if (self) {
-    [self commonInit];
-  }
-  return self;
+   self = [super initWithFrame:frame];
+   if (self) {
+      [self commonInit];
+   }
+   return self;
 }
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
-  self = [super initWithCoder:aDecoder];
-  if (self) {
-    [self commonInit];
-  }
-  return self;
+   self = [super initWithCoder:aDecoder];
+   if (self) {
+      [self commonInit];
+   }
+   return self;
+}
+
+
+- (void)dealloc {
+   [self unsubscribeSelfForStyle];
 }
 
 - (void)commonInit {
@@ -52,13 +57,9 @@
   [self subscribeSelfForStyle];
 }
 
-- (void)dealloc {
-  [self unsubscribeSelfForStyle];
-}
 
 - (void)awakeFromNib {
   [super awakeFromNib];
-  [self reloadStyle];
   if (self.leftImageName) {
     [self setLeftImage:[UIImage imageNamed:self.leftImageName]];
   }

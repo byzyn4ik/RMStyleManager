@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3C7DE23267DCDF41E51B7F81955473501AC59324",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AE274F393B7FCC6DF1E5C6B241D4E1BE90F824D8" : 0,
+    "3C7DE23267DCDF41E51B7F81955473501AC59324" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BCA46DC8-B209-4AB5-8DC6-9DD999DCA05D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AE274F393B7FCC6DF1E5C6B241D4E1BE90F824D8" : "..\/..\/..",
+    "3C7DE23267DCDF41E51B7F81955473501AC59324" : "RMStyleManager\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RMStyleManager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/RMStyleManager.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/byzyn4ik\/RMStyleManager",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C7DE23267DCDF41E51B7F81955473501AC59324"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "54.236.98.141:ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE274F393B7FCC6DF1E5C6B241D4E1BE90F824D8"
+    }
+  ]
+}

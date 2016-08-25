@@ -14,5 +14,6 @@ static NSString *reloadStyleNotification = @"ReloadStyleNotification";
 @protocol RMStyleReloadProtocol <NSObject>
 
 - (void)reloadStyle;
+- (void)styleDidChanged:(NSNotification*)notification;
 
 @end
