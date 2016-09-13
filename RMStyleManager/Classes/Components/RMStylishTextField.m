@@ -60,9 +60,28 @@
 
 - (void)awakeFromNib {
   [super awakeFromNib];
-  if (self.leftImageName) {
-    [self setLeftImage:[UIImage imageNamed:self.leftImageName]];
-  }
+  [self updateLeftImageIfNeeded];
+}
+
+- (void)prepareForInterfaceBuilder {
+   [super prepareForInterfaceBuilder];
+   [self updateLeftImageIfNeeded];
+}
+
+- (void)updateLeftImageIfNeeded {
+   if (self.leftImageName) {
+      [self layoutIfNeeded];
+      UIImage *leftImage;
+#if !TARGET_INTERFACE_BUILDER
+      leftImage = [UIImage imageNamed:self.leftImageName];
+#else
+      NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+      leftImage = [UIImage imageNamed:self.leftImageName
+                             inBundle:bundle
+        compatibleWithTraitCollection:self.traitCollection];
+#endif
+      [self setLeftImage:leftImage];
+   }
 }
 
 - (void)setPlaceholder:(NSString *)placeholder {
