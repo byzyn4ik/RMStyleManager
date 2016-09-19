@@ -119,4 +119,9 @@
       [super setText:text];
    }
 }
+
+-(NSString *)description {
+   return  [[super description] stringByAppendingFormat:@"\nstyle=%@",self.style];
+}
+
 @end
