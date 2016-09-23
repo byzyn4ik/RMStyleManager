@@ -12,5 +12,6 @@
 @interface UIView (ApplyBaseStyle)
 
 - (void)applyBaseStyle:(RMBaseStyle*)baseStyle;
++ (NSDictionary*)textAttributesWithTextAttributes:(NSDictionary*)textAttributes textColor:(UIColor*)textColor;
 
 @end

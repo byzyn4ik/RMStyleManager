@@ -33,4 +33,13 @@
   }
 }
 
+
++ (NSDictionary*)textAttributesWithTextAttributes:(NSDictionary*)textAttributes textColor:(UIColor*)textColor {
+    if (textColor && textAttributes && !textAttributes[NSForegroundColorAttributeName]) {
+        NSMutableDictionary *mutableTextAttributes = [textAttributes mutableCopy];
+        mutableTextAttributes[NSForegroundColorAttributeName] = textColor;
+        return [mutableTextAttributes copy];
+    }
+    return textAttributes;
+}
 @end

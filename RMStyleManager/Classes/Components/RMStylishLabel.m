@@ -95,7 +95,7 @@
       self.numberOfLines = style.numberOfLines;
    }
    if (style.textAttributes) {
-      self.textAttributes = style.textAttributes;
+       self.textAttributes = [self.class textAttributesWithTextAttributes:style.textAttributes textColor:style.textColor];
       [self setText:self.text];
    }
 }

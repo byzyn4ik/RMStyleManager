@@ -93,16 +93,16 @@
   }
 
   if (style.hightLightedTextAttributes) {
-     self.hightLightedTextAttributes = style.hightLightedTextAttributes;
+      self.hightLightedTextAttributes = [self.class textAttributesWithTextAttributes:style.hightLightedTextAttributes textColor:style.highlightedTextColor ? style.highlightedTextColor : style.textColor] ;
      [self reloadTitleForState:UIControlStateHighlighted];
   }
   if (style.disabledTextAttributes) {
-     self.disabledTextAttributes = style.disabledTextAttributes;
+      self.disabledTextAttributes = [self.class textAttributesWithTextAttributes:style.disabledTextAttributes textColor:style.disabledTextColor ? style.disabledTextColor : style.textColor] ;
      [self reloadTitleForState:UIControlStateDisabled];
 
   }
   if (style.textAttributes) {
-      self.textAttributes = style.textAttributes;
+      self.textAttributes =  [self.class textAttributesWithTextAttributes:style.textAttributes textColor:style.textColor] ;
       [self reloadTitleForState:UIControlStateNormal];
       [self reloadTitleForState:UIControlStateFocused];
       [self reloadTitleForState:UIControlStateSelected];
