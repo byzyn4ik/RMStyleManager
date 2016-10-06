@@ -19,6 +19,6 @@
 @property(nonatomic, assign) NSTextAlignment textAlignment;
 @property(nonatomic, assign) CGFloat numberOfLines;
 @property(nonatomic) CGFloat kerning;
-
+@property(nonatomic) CGFloat minimumFontScale;
 
 @end

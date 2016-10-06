@@ -98,6 +98,9 @@
        self.textAttributes = [self.class textAttributesWithTextAttributes:style.textAttributes textColor:style.textColor];
       [self setText:self.text];
    }
+   if (style.minimumFontScale) {
+      self.minimumScaleFactor = style.minimumFontScale;
+   }
 }
 
 
