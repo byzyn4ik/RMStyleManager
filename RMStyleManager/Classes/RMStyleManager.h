@@ -17,6 +17,7 @@
 #import "RMSwitchStyle.h"
 #import "RMTextFieldStyle.h"
 #import "RMViewStyle.h"
+#import "RMSegmentedControlStyle.h"
 
 @interface RMStyleManager : NSObject
 
