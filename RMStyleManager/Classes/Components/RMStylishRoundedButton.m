@@ -88,8 +88,8 @@
                forState:UIControlStateHighlighted];
   }
   if (style.highlightedBgColor) {
-    [self setTitleColor:style.highlightedBgColor
-               forState:UIControlStateHighlighted];
+      [self setBackgroundImage:[UIImage imageWithColor:style.highlightedBgColor]
+                      forState:UIControlStateHighlighted];
   }
 
   if (style.hightLightedTextAttributes) {
