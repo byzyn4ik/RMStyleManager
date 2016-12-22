@@ -24,7 +24,8 @@
 
 @implementation RMStylishRoundedButton
 
-- (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName {
+- (instancetype)initWithFrame:(CGRect)frame
+                     andStyle:(NSString *)styleName {
   self = [self initWithFrame:frame];
   if (self) {
     self.style = styleName;
@@ -61,7 +62,6 @@
    [self reloadStyle];
 }
 
-
 - (void)applyStyle:(RMButtonStyle *)style {
   [self applyBaseStyle:style];
 
@@ -69,7 +69,8 @@
     self.titleLabel.font = style.font;
   }
   if (style.textColor) {
-    [self setTitleColor:style.textColor forState:UIControlStateNormal];
+    [self setTitleColor:style.textColor
+               forState:UIControlStateNormal];
   }
   if (style.backgroundColor) {
     [self setBackgroundImage:[UIImage imageWithColor:style.backgroundColor]
@@ -93,7 +94,7 @@
   }
 
   if (style.hightLightedTextAttributes) {
-      self.hightLightedTextAttributes = [self.class textAttributesWithTextAttributes:style.hightLightedTextAttributes textColor:style.highlightedTextColor ? style.highlightedTextColor : style.textColor] ;
+      self.hightLightedTextAttributes = [self.class textAttributesWithTextAttributes:style.hightLightedTextAttributes textColor:style.highlightedTextColor ? style.highlightedTextColor : style.textColor];
      [self reloadTitleForState:UIControlStateHighlighted];
   }
   if (style.disabledTextAttributes) {
@@ -112,15 +113,6 @@
       [self reloadTitleForState:UIControlStateDisabled];
   }
 }
-
-//- (void)setStyle:(NSString *)style {
-//   if (_style) {
-//      [self unsubscribeSelfForStyle];
-//   }
-//   _style = style;
-//   [self subscribeSelfForStyle];
-//   [self reloadStyle];
-//}
 
 - (void)reloadTitleForState:(UIControlState)state {
    [self setTitle:[self titleForState:state] forState:state];
@@ -153,12 +145,6 @@
     }
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+
 
 @end

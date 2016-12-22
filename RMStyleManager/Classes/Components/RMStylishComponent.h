@@ -14,8 +14,8 @@
 @protocol RMStylishComponent <NSObject>
 
 
-- (void)applyStyle:(RMBaseStyle *)style;
-- (void)applyBaseStyle:(RMBaseStyle *)style;
+- (void)applyStyle:(__kindof RMBaseStyle *)style;
+- (void)applyBaseStyle:(__kindof RMBaseStyle *)style;
 @optional
 - (void)setStyle:(NSString *)style;
 - (NSString *)style;

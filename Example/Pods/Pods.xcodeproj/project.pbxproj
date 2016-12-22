@@ -39,6 +39,14 @@
 		5047C5721DA7C40500B20873 /* RMStylishSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C56F1DA7C40500B20873 /* RMStylishSegmentedControl.m */; };
 		5047C5731DA7C40500B20873 /* RMStylishSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C56F1DA7C40500B20873 /* RMStylishSegmentedControl.m */; };
 		5047C5741DA7C40500B20873 /* RMStylishSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C56F1DA7C40500B20873 /* RMStylishSegmentedControl.m */; };
+		5065FBDC1E0C129600DC501E /* RMStylishProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5065FBDA1E0C129600DC501E /* RMStylishProgressView.h */; };
+		5065FBDD1E0C129600DC501E /* RMStylishProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5065FBDA1E0C129600DC501E /* RMStylishProgressView.h */; };
+		5065FBDE1E0C129600DC501E /* RMStylishProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065FBDB1E0C129600DC501E /* RMStylishProgressView.m */; };
+		5065FBDF1E0C129600DC501E /* RMStylishProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065FBDB1E0C129600DC501E /* RMStylishProgressView.m */; };
+		5065FBE21E0C130A00DC501E /* RMProgressViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5065FBE01E0C130A00DC501E /* RMProgressViewStyle.h */; };
+		5065FBE31E0C130A00DC501E /* RMProgressViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5065FBE01E0C130A00DC501E /* RMProgressViewStyle.h */; };
+		5065FBE41E0C130A00DC501E /* RMProgressViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065FBE11E0C130A00DC501E /* RMProgressViewStyle.m */; };
+		5065FBE51E0C130A00DC501E /* RMProgressViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065FBE11E0C130A00DC501E /* RMProgressViewStyle.m */; };
 		520D11D6D57CDCED6416F389623C57B5 /* RMStyleManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA632203419BE88568E09332D34307F4 /* RMStyleManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53CDD19F0DF3139A5C5BFAED32F29342 /* RMStylishImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B5827D1858AD13E0D239B7799CDE3A /* RMStylishImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		548612F699D2C0EB07EDCAC6230797E7 /* RMStylishPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E03603349AFE3B22998CBD5E7289D /* RMStylishPageControl.m */; };
@@ -171,6 +179,10 @@
 		5047C5681DA7C39F00B20873 /* RMSegmentedControlStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSegmentedControlStyle.m; sourceTree = "<group>"; };
 		5047C56E1DA7C40500B20873 /* RMStylishSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStylishSegmentedControl.h; sourceTree = "<group>"; };
 		5047C56F1DA7C40500B20873 /* RMStylishSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStylishSegmentedControl.m; sourceTree = "<group>"; };
+		5065FBDA1E0C129600DC501E /* RMStylishProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStylishProgressView.h; sourceTree = "<group>"; };
+		5065FBDB1E0C129600DC501E /* RMStylishProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStylishProgressView.m; sourceTree = "<group>"; };
+		5065FBE01E0C130A00DC501E /* RMProgressViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMProgressViewStyle.h; sourceTree = "<group>"; };
+		5065FBE11E0C130A00DC501E /* RMProgressViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMProgressViewStyle.m; sourceTree = "<group>"; };
 		5184C0DFE64AE2CAC00F798DE06DFA24 /* UIColor+InputMethods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+InputMethods-prefix.pch"; sourceTree = "<group>"; };
 		51B21230AF33D5A833C806C1CA2719CD /* RMNavigationBarStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RMNavigationBarStyle.h; sourceTree = "<group>"; };
 		532344C5A600A8205AE436EBC339FC8F /* RMStyleManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMStyleManager.modulemap; sourceTree = "<group>"; };
@@ -302,6 +314,8 @@
 				153AED503EDC451DC08F018F0DDA7A60 /* RMStylishTextField.m */,
 				5EDE15EF8EB830E0100C278CF0E8D34A /* RMStylishView.h */,
 				597B3AC75AB262D72FEB019881737447 /* RMStylishView.m */,
+				5065FBDA1E0C129600DC501E /* RMStylishProgressView.h */,
+				5065FBDB1E0C129600DC501E /* RMStylishProgressView.m */,
 				4D9597691D800AA4008143AA /* RMStylishTableView.h */,
 				4D95976A1D800AA4008143AA /* RMStylishTableView.m */,
 			);
@@ -367,6 +381,8 @@
 		3E995004387F76544E3C7A24B8768DAF /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				5065FBE01E0C130A00DC501E /* RMProgressViewStyle.h */,
+				5065FBE11E0C130A00DC501E /* RMProgressViewStyle.m */,
 				5047C5671DA7C39F00B20873 /* RMSegmentedControlStyle.h */,
 				5047C5681DA7C39F00B20873 /* RMSegmentedControlStyle.m */,
 				95CC4A6324FCCF2E2873B5EB98B588F9 /* RMBaseStyle.h */,
@@ -564,6 +580,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5065FBE21E0C130A00DC501E /* RMProgressViewStyle.h in Headers */,
+				5065FBDC1E0C129600DC501E /* RMStylishProgressView.h in Headers */,
 				5047C5691DA7C39F00B20873 /* RMSegmentedControlStyle.h in Headers */,
 				5047C5701DA7C40500B20873 /* RMStylishSegmentedControl.h in Headers */,
 				B54E987D2C0F76DA62FAC3348FD67778 /* Pods-RMStyleManager_Example-umbrella.h in Headers */,
@@ -597,6 +615,8 @@
 				520D11D6D57CDCED6416F389623C57B5 /* RMStyleManager-umbrella.h in Headers */,
 				C0572890FDAE69EE5ADB4CE037EBDB78 /* RMStyleManager.h in Headers */,
 				AFB51248A6052ED7672F26C285A3A8CF /* RMStyleReloadProtocol.h in Headers */,
+				5065FBDD1E0C129600DC501E /* RMStylishProgressView.h in Headers */,
+				5065FBE31E0C130A00DC501E /* RMProgressViewStyle.h in Headers */,
 				8A475E2E10F5262F2DAC836C09EA260E /* RMStyleSwitch.h in Headers */,
 				1C9919F0CF5B46AB1F878705AF4DE8FA /* RMStylishComponent.h in Headers */,
 				53CDD19F0DF3139A5C5BFAED32F29342 /* RMStylishImageView.h in Headers */,
@@ -771,7 +791,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5065FBE41E0C130A00DC501E /* RMProgressViewStyle.m in Sources */,
 				2A3C1548D6D21092D988998D9BD9B08C /* Pods-RMStyleManager_Example-dummy.m in Sources */,
+				5065FBDE1E0C129600DC501E /* RMStylishProgressView.m in Sources */,
 				5047C5721DA7C40500B20873 /* RMStylishSegmentedControl.m in Sources */,
 				5047C56B1DA7C39F00B20873 /* RMSegmentedControlStyle.m in Sources */,
 			);
@@ -781,6 +803,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5065FBDF1E0C129600DC501E /* RMStylishProgressView.m in Sources */,
 				849CC6551C8C7C2A9B81AE9053CA347B /* BaseRoundedButton.m in Sources */,
 				2EDF92613C28FB81C8B47EE2E30FE112 /* RMBaseStyle.m in Sources */,
 				81142BE27AC8DC5070354773EA97D9D1 /* RMButtonStyle.m in Sources */,
@@ -788,6 +811,7 @@
 				0F0F3EAC86E3D59C294CFD5EDEB9A49F /* RMLabelStyle.m in Sources */,
 				5E19CE0558A5C12FC8123DA6B2F7C584 /* RMNavigationBar.m in Sources */,
 				FE25DEF93F89E91BFA671EB012BC641A /* RMNavigationBarStyle.m in Sources */,
+				5065FBE51E0C130A00DC501E /* RMProgressViewStyle.m in Sources */,
 				648FE71CFF01BF997B7D60A8D1D4F79B /* RMPageControlStyle.m in Sources */,
 				7B116F8520F84D705A365C0EBBBC84BE /* RMReloadStyleSubscriber.m in Sources */,
 				7473100C7362B8424AC8345FDEE64F99 /* RMStyleManager-dummy.m in Sources */,

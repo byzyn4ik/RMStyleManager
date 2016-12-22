@@ -18,6 +18,7 @@
 #import "RMTextFieldStyle.h"
 #import "RMViewStyle.h"
 #import "RMSegmentedControlStyle.h"
+#import "RMProgressViewStyle.h"
 
 @interface RMStyleManager : NSObject
 
