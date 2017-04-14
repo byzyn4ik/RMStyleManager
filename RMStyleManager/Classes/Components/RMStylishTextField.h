@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#define kPadding 20.0f
 
 IB_DESIGNABLE
 @interface RMStylishTextField : UITextField
 
 @property(nonatomic, strong)
     IB_DESIGNABLE IBInspectable UIColor *myPlaceholderColor;
+@property(nonatomic, strong)
+IB_DESIGNABLE IBInspectable UIFont *placeholderFont;
 @property(nonatomic, strong) IBInspectable NSString *style;
 @property(nonatomic, strong) IBInspectable NSString *leftImageName;
 

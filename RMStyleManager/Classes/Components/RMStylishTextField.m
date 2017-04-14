@@ -17,12 +17,14 @@
 @interface RMStylishTextField () <RMStylishComponent>
 
 @property(atomic) CGRect imageRect;
+@property(nonatomic) CGFloat padding;
 
 @end
 
 @implementation RMStylishTextField
 
-- (instancetype)initWithFrame:(CGRect)frame andStyle:(NSString *)styleName {
+- (instancetype)initWithFrame:(CGRect)frame
+                     andStyle:(NSString *)styleName {
   self = [self initWithFrame:frame];
   if (self) {
     _style = styleName;
@@ -85,12 +87,15 @@
 }
 
 - (void)setPlaceholder:(NSString *)placeholder {
-  if (placeholder)
-    self.attributedPlaceholder = [[NSAttributedString alloc]
-        initWithString:placeholder
-            attributes:@{
-              NSForegroundColorAttributeName : [self placeholderColor]
-            }];
+    if (placeholder) {
+        var attributes = [NSMutableDictionary <NSString*,id> new];
+        attributes[NSForegroundColorAttributeName] = [self placeholderColor];
+        attributes[NSFontAttributeName] = [self placeholderFont];
+        self.attributedPlaceholder = [[NSAttributedString alloc]
+                                      initWithString:placeholder
+                                      attributes:attributes];
+    }
+    
 }
 
 - (CGRect)textRectForBounds:(CGRect)bounds {
@@ -117,7 +122,7 @@
 - (CGFloat)widthForView:(UIView *)view {
   {
     if (!view || !view.frame.size.width) {
-      return kPadding;
+      return self.padding;
     }
     return view.frame.size.width;
   }
@@ -133,6 +138,11 @@
 - (void)setPlaceholderColor:(UIColor *)placeholderColor {
   self.myPlaceholderColor = placeholderColor;
   [self setPlaceholder:[self.attributedPlaceholder string]];
+}
+
+- (void)setPlaceholderFont:(UIFont *)font {
+    _placeholderFont = font;
+    [self setPlaceholder:[self.attributedPlaceholder string]];
 }
 
 - (void)setTintColor:(UIColor *)tintColor {
@@ -200,6 +210,10 @@
   if (style.leftImage) {
     [self setLeftImage:style.leftImage];
   }
+    if (style.placeholderFont) {
+        self.placeholderFont =         style.placeholderFont;
+    }
+  self.padding = style.padding;
 }
 
 @end
